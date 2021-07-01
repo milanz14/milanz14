@@ -12,8 +12,7 @@
 
 
 ### Glad to see you here!  
-I'm a mechanical engineer, working in sales, with a passion for web development and solving problems. Like what you see? Please feel free to contact me for job opportunities.   
-  
+I'm a mechanical engineer, working in sales, with a passion for web development and solving problems. 
 
 <br/>  
 
