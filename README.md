@@ -28,8 +28,7 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 
 - ⚡ Fun fact: I don't use dark mode on my iPhone or Github.  
 
-
-</td><td valign="top" width="50%"> 
+</table>
 
 <br/>  
 
