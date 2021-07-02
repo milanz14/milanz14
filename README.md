@@ -11,7 +11,7 @@
 
 
 
-### Glad to see you here!  
+### Thanks for stopping by.  
 I'm a mechanical engineer, working in sales, with a passion for web development and solving problems. 
 
 <br/>  
@@ -29,11 +29,7 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 - ⚡ Fun fact: I don't use dark mode on my iPhone or Github.  
 
 
-</td><td valign="top" width="50%">
-
-
-
-</td></tr></table>  
+</td><td valign="top" width="50%"> 
 
 <br/>  
 
@@ -45,8 +41,7 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="25" />  
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="25" />  
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="25" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="25" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="25" />  
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="25" />   
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="25" />  
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="25" />  
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="25" />  
@@ -80,7 +75,7 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 
 <br/>  
 
-![Profile views counter](https://komarev.com/ghpvc/?username=rishavanand&&style=flat-square)  
+![Profile views counter](https://komarev.com/ghpvc/?username=milanz14&&style=flat-square)  
   
 
 <br/>  
