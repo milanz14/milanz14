@@ -45,7 +45,7 @@ const About = () => {
                   {paragraphTwo ||
                     'Whe not coding, I enjoy hitting the weight room, playing with my dog and waching movies with my wife.'}
                 </p>
-                <p className="about-wrapper__info-text">
+                {/* <p className="about-wrapper__info-text">
                   {paragraphThree || 'Click below for my resume.'}
                 </p>
                 {resume && (
@@ -59,7 +59,7 @@ const About = () => {
                       Resume
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>
