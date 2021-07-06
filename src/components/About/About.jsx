@@ -39,11 +39,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I am a mechanical engineer by education and a sales manager by occupation. A few years ago I discovered that I had a passion for web development. After honing my craft, I realized this is the industry that I want to spend the rest of my career in.'}
+                    'I am a mechanical engineer by education and a sales manager by occupation. A few years ago I discovered that I had a passion for web development. After honing my craft, I realized this is the industry that I want to focus on for the rest of my career.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Whe not coding, I enjoy hitting the weight room, playing with my dog and waching movies with my wife.'}
+                    'When not coding, I enjoy hitting the weight room, playing with my dog and watching movies with my wife.'}
                 </p>
                 {/* <p className="about-wrapper__info-text">
                   {paragraphThree || 'Click below for my resume.'}
