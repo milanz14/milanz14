@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I am a mechanical engineer by education and a business professional by occupation. It was not until later in life that I discovered my passion for coding and problem solving.',
   paragraphTwo:
-    'I have many years of experience in customer facing business roles of ever increasing resposibility. My technical education and business skills will server me well as I transition into a career in tech.',
+    'I have many years of experience in customer facing business roles of ever increasing resposibility. My technical education and business skills will serve me well as I transition into a career in tech.',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
 };
