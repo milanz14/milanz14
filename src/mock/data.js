@@ -18,10 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'I am a mechanical engineer by education and a business professional by occupation. It was not until later in life that I discovered my passion for coding and problem solving.',
+  paragraphTwo:
+    'I have many years of experience in customer facing business roles of ever increasing resposibility.',
+  paragraphThree:
+    'My technical education and business skills will server me well as I transition into a career in tech.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
