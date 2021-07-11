@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Milan Zagorac',
+  name: 'Milan',
   subtitle: 'I am a web developer.',
   cta: '',
 };
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I am a mechanical engineer by education and a business professional by occupation. It was not until later in life that I discovered my passion for coding and problem solving.',
   paragraphTwo:
-    'I have many years of experience in customer facing business roles of ever increasing resposibility. My technical education and business skills will serve me well as I transition into a career in tech.',
+    'I have many years of experience in customer facing business roles of ever increasing responsibility. My technical education and business skills will serve me well as I transition into a career in tech.',
   paragraphThree: '',
   resume: '', // if no resume, the button will not show up
 };
@@ -32,7 +32,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project-budgee.jpg',
     title: 'Budgee Expense Tracker',
-    info: 'Budgee is a simple expense tracker that will allow the user to log their expenditures and see a graph of their transactions.',
+    info: 'Budgee is a simple expense tracker that allows the user to log their expenditures and view a graph of their transactions.',
     info2: '',
     url: 'https://budgee-app.herokuapp.com/',
     repo: 'https://github.com/milanz14/budgee-expense-tracker', // if no repo, the button will not show up
