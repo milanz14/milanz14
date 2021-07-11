@@ -17,22 +17,6 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 <br/>  
 
 
-## Rapidfire  
-<table><tr><td valign="top" width="50%">
-
-- 🌱 I’m currently learning TypeScript  
-  
-
-- ❓ Ask me about anything related to MERN/PERN stack and related technologies  
-  
-
-- ⚡ Fun fact: I don't use dark mode on my iPhone or Github.  
-
-</table>
-
-<br/>  
-
-
 ## Languages and Tools  
 <div align="center">  
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="25" />  
