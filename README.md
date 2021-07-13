@@ -9,8 +9,6 @@
 </a>  
   
 
-
-
 ### Thanks for stopping by.  
 I'm a mechanical engineer, working in sales, with a passion for web development and solving problems. 
 
@@ -54,17 +52,5 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 
 <br/>  
 
-  
-
-<br/>  
-
-![Profile views counter](https://komarev.com/ghpvc/?username=milanz14&&style=flat-square)  
-  
-
-<br/>  
-
-
-<br />
-
 ----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
+
