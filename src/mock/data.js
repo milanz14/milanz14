@@ -33,19 +33,19 @@ export const projectsData = [
     img: 'project-budgee.jpg',
     title: 'Budgee Expense Tracker',
     info: 'Budgee is a simple expense tracker that allows the user to log their expenditures and view a graph of their transactions.',
-    info2: '',
+    info2: 'Technologies: Python, Flask, JS',
     url: 'https://budgee-app.herokuapp.com/',
     repo: 'https://github.com/milanz14/budgee-expense-tracker', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'project-shorten.jpg',
+    title: 'Shorten-It URL Shortener',
+    info: 'Shorten it is a React based URL shortener. Click to shorten and then copy the short URL to your clipboard for easy access.',
+    info2: 'Technologies: React',
+    url: 'https://theshortening.netlify.app/',
+    repo: 'https://github.com/milanz14/shorten-it', // if no repo, the button will not show up
+  },
   // {
   //   id: nanoid(),
   //   img: 'project.jpg',
