@@ -36,16 +36,11 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 </div>  
 
 <br/>  
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=milanz14&" alt="milanz14" /></p>
 ## Github Stats  
 <table><tr><td valign="top" width="50%">
-
 <img src="https://github-readme-stats.vercel.app/api?username=milanz14&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 100%" />
-
 </td><td valign="top" width="50%">
-
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=milanz14&hide_border=true&layout=compact" align="left" style="width: 100%" />
-
 </td></tr></table>  
 
 <br/>  
