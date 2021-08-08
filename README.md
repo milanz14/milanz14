@@ -14,7 +14,6 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 
 <br/>  
 
-
 ## Languages and Tools  
 <div align="center">  
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="25" />  
@@ -37,8 +36,7 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 </div>  
 
 <br/>  
-
-
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=milanz14&" alt="milanz14" /></p>
 ## Github Stats  
 <table><tr><td valign="top" width="50%">
 
