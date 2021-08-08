@@ -35,7 +35,8 @@ I'm a mechanical engineer, working in sales, with a passion for web development 
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/webpack-original.svg" alt="Webpack" height="25" />  
 </div>  
 
-<br/>  
+<br/> 
+
 ## Github Stats  
 <table><tr><td valign="top" width="50%">
 <img src="https://github-readme-stats.vercel.app/api?username=milanz14&show_icons=true&count_private=true&hide_border=true" align="left" style="width: 100%" />
