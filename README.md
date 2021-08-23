@@ -10,7 +10,7 @@
   
 
 ### Thanks for stopping by.  
-I'm a mechanical engineer, working in sales, with a passion for web development and solving problems. 
+I'm a software developer with a passion for web development and solving problems. I'm a mechanical engineer by education and I work in sales.  
 
 <br/>  
 
