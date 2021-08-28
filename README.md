@@ -1,4 +1,4 @@
-## Hello 👋,  I'm Milan.  
+## Hello 👋 
   
 
 <a href="https://github.com/milanz14" target="_blank">
