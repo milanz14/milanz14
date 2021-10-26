@@ -10,7 +10,12 @@
   
 
 ### Thanks for stopping by.  
-I'm a software developer with a passion for web development and solving problems. I'm a mechanical engineer by education and I work in sales.  
+I'm a software developer with a passion for web development and solving problems.
+
+Proficient with the following tech stacks:
+MERN
+PERN
+MEAN
 
 <br/>  
 
