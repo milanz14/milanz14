@@ -10,12 +10,9 @@
   
 
 ### Thanks for stopping by.  
-I'm a software developer with a passion for web development and solving problems.
+I'm a software developer with a passion for web development and solving problems. If I had to choose my favourite language, it would be JavaScript. I specifically think that React is the best thing since sliced bread. 
 
-Proficient with the following tech stacks:
--MERN
--PERN
--MEAN
+Proficient with the following tech stacks: MERN, PERN, MEAN
 
 <br/>  
 
