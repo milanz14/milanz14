@@ -10,9 +10,9 @@
   
 
 ### Thanks for stopping by.  
-I'm a software developer with a passion for web development and solving problems. If I had to choose my favourite language, it would be JavaScript. I specifically think that React is the best thing since sliced bread. 
+I'm a software developer based in the Toronto area. I have a passion for web development and solving problems. If I had to choose my favourite language, it would be JavaScript. I am a huge fan of JavaScript based technologies (React, TypeScript, Node/Express).
 
-Proficient with the following tech stacks: MERN, PERN, MEAN
+I am proficient with the following tech stacks: MERN, PERN, MEAN.
 
 <br/>  
 
