@@ -46,15 +46,16 @@ export const projectsData = [
     url: 'https://theshortening.netlify.app/',
     repo: 'https://github.com/milanz14/shorten-it', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'project-paintrest.jpg',
+    title: 'Paintrest',
+    info: 'Paintrest is an app that allows users to create beautiful works of art on a canvas and save to their profile.',
+    info2:
+      'This is a full stack application with a backend for data storage and front end for user interaction with the server.',
+    url: 'https://paintrest.surge.sh/',
+    repo: 'https://github.com/milanz14/Paintrest', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
