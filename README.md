@@ -6,9 +6,9 @@ i'm Milan, a mechanical engineer, turned sales professional, turned developer. I
 
 # Working on
 
-SaveMyFave - a site where users can save their favorite meals at their favorite restaurants for quick reference the next time they eat at that restaurant.
-Budgettr - a rebuild of my budgee app to utilize the MERN stack instead of python/flask. 
-Chattr - a 1:1 online chat room
+  - SaveMyFave: a site where users can save their favorite meals at their favorite restaurants for quick reference the next time they eat at that restaurant.
+  - Budgettr: a rebuild of my budgee app to utilize the MERN stack instead of python/flask. 
+  - Chattr:  a 1:1 online chat room
 
 # Learning Queue
 
