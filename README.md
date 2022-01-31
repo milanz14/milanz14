@@ -1,16 +1,16 @@
 i'm Milan, a mechanical engineer, turned sales professional, turned developer. I have a passion for all things JavaScript. I currently reside west of Toronto. 
 
-Technical Skills
+# Technical Skills
 
-JavaScript TypeScript ReactJS HTML CSS Python Flask MongoDB PostgresSQL
+  `JavaScript` `TypeScript` `React` `HTML` `CSS` `Python` `Flask` `MongoDB` `PostgresSQL`
 
-Working on
+# Working on
 
 SaveMyFave - a site where users can save their favorite meals at their favorite restaurants for quick reference the next time they eat at that restaurant.
 Budgettr - a rebuild of my budgee app to utilize the MERN stack instead of python/flask. 
 Chattr - a 1:1 online chat room
 
-Learning Queue
+# Learning Queue
 
-Vue Svelte Koa
+  `Vue` `Svelte` `Koa`
 
