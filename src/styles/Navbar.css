@@ -1,0 +1,39 @@
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.navLinks {
+    list-style-type: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li .navLink {
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li .navLink:hover {
+    color: rgba(54, 54, 206, 0.719);
+}
+
+.active {
+    color: blue;
+    border-bottom: 1px solid black;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.navLink {
+    color: black;
+    cursor: pointer;
+} */
