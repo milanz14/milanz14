@@ -18,18 +18,18 @@
 
 .navLinks li .navLink {
     transition: all 0.3s ease 0s;
-}
+} */
 
-.navLinks li .navLink:hover {
+/* .navLink:hover {
     color: rgba(54, 54, 206, 0.719);
-}
+} */
 
 .active {
     color: blue;
     border-bottom: 1px solid black;
 }
 
-i {
+/* i {
     margin-right: 10px;
 }
 
