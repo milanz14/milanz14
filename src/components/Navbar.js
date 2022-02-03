@@ -5,8 +5,6 @@ import { Box, Text, Button } from "@chakra-ui/react";
 import "../styles/Navbar.css";
 
 const Navbar = () => {
-    const navigate = useNavigate();
-
     return (
         <header>
             <Box
@@ -17,39 +15,66 @@ const Navbar = () => {
                 mr={6}
             >
                 <Box my={5}>
-                    <Button onClick={() => navigate("/")} variant="link">
-                        {" "}
-                        <Text>
-                            <i className="fas fa-home"></i>&ensp; HOME
-                        </Text>
-                    </Button>
-                </Box>
-                <Box my={5}>
-                    <Button onClick={() => navigate("/about")} variant="link">
-                        {" "}
-                        <Text>
-                            <i className="far fa-address-card"></i>&ensp; ABOUT
-                        </Text>
-                    </Button>
-                </Box>
-                <Box my={5}>
-                    <Button
-                        onClick={() => navigate("/projects")}
-                        variant="link"
+                    <NavLink
+                        to="/"
+                        className={(navData) =>
+                            navData.isActive ? "active" : ""
+                        }
                     >
-                        {" "}
-                        <Text>
-                            <i className="fas fa-tasks"></i>&ensp; PROJECTS
-                        </Text>
-                    </Button>
+                        <Button variant="link">
+                            {" "}
+                            <Text>
+                                <i className="fas fa-home"></i>&ensp; HOME
+                            </Text>
+                        </Button>
+                    </NavLink>
                 </Box>
                 <Box my={5}>
-                    <Button onClick={() => navigate("/contact")} variant="link">
-                        {" "}
-                        <Text>
-                            <i className="far fa-envelope"></i>&ensp; CONTACT
-                        </Text>
-                    </Button>
+                    <NavLink
+                        to="/about"
+                        className={(navData) =>
+                            navData.isActive ? "active" : ""
+                        }
+                    >
+                        <Button variant="link">
+                            {" "}
+                            <Text>
+                                <i className="fas fa-address-card"></i>&ensp;
+                                ABOUT
+                            </Text>
+                        </Button>
+                    </NavLink>
+                </Box>
+                <Box my={5}>
+                    <NavLink
+                        to="/projects"
+                        className={(navData) =>
+                            navData.isActive ? "active" : ""
+                        }
+                    >
+                        <Button variant="link">
+                            {" "}
+                            <Text>
+                                <i className="fas fa-tasks"></i>&ensp; PROJECTS
+                            </Text>
+                        </Button>
+                    </NavLink>
+                </Box>
+                <Box my={5}>
+                    <NavLink
+                        to="/contact"
+                        className={(navData) =>
+                            navData.isActive ? "active" : ""
+                        }
+                    >
+                        <Button variant="link">
+                            {" "}
+                            <Text>
+                                <i className="fas fa-envelope"></i>&ensp;
+                                CONTACT
+                            </Text>
+                        </Button>
+                    </NavLink>
                 </Box>
             </Box>
         </header>
