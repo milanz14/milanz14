@@ -1,4 +1,4 @@
-i'm Milan, a mechanical engineer, turned sales professional, turned developer. I have a passion for all things JavaScript. I currently reside west of Toronto. 
+i'm Milan, a software developer from the Toronto area. I have a passion for all things JavaScript. 
 
 # Technical Skills
 
