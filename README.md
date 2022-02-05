@@ -2,7 +2,7 @@ i'm Milan, a mechanical engineer, turned sales professional, turned developer. I
 
 # Technical Skills
 
-  `JavaScript` `TypeScript` `React` `Node` `Express` `HTML` `CSS` `Python` `Flask` `MongoDB` `PostgresSQL``Bulma`
+  `JavaScript` `TypeScript` `React` `Node` `Express` `HTML` `CSS` `Python` `Flask` `MongoDB` `PostgresSQL` `Bulma`
 
 # Working on
 
