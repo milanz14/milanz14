@@ -2,7 +2,7 @@ i'm Milan, a software developer from the Toronto area. I have a passion for all 
 
 # Technical Skills
 
-  `JavaScript` `TypeScript` `React` `Node` `Express` `HTML` `CSS` `Python` `Flask` `MongoDB` `PostgresSQL` `Bulma`
+  `JavaScript` `TypeScript` `Vue` `React` `Node` `Express` `HTML` `CSS` `Python` `Flask` `MongoDB` `PostgresSQL` `Bulma`
 
 # Working on
 
@@ -12,5 +12,5 @@ i'm Milan, a software developer from the Toronto area. I have a passion for all 
 
 # Learning Queue
 
-  `Vue` `Svelte` `Koa`
+`Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS`
 
