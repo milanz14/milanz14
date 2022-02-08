@@ -12,5 +12,5 @@ i'm Milan, a software developer from the Toronto area. I have a passion for all 
 
 # Learning Queue
 
-`Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS`
+`Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS` `Vuetify`
 
