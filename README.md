@@ -1,5 +1,7 @@
 i'm Milan, a software developer from the Toronto area. I have a passion for all things JavaScript. 
 
+Currently employed as a fullstack developer, mainly working with Vue, TypeScript and Python. 
+
 # Technical Skills
 
   `JavaScript` `TypeScript` `Vue` `React` `Node` `Express` `HTML` `CSS` `Python` `Flask` `MongoDB` `PostgresSQL` `Bulma`
