@@ -3,7 +3,7 @@ i'm Milan, a software developer from the Toronto area. I have a passion for all 
 
 # Technical Skills
 
-  `JavaScript` `TypeScript` `React` `Redux` `Vue2` `Vue3` `Vuex` `Node` `Express` `HTML` `CSS` `Python` `Flask` `MongoDB` `PostgresSQL` `Bulma` `Vuetify` `Quasar`
+  `JavaScript` `TypeScript` `React` `Redux` `Vue2` `Vue3` `Vuex` `Node` `Express` `HTML` `CSS` `Python` `Flask` `MongoDB` `PostgresSQL` `Bulma` `Vuetify` `Quasar` `Docker` `Kubernetes` `DevOps`
 
 # Working on
 
@@ -14,5 +14,5 @@ i'm Milan, a software developer from the Toronto area. I have a passion for all 
 
 # Learning Queue
 
-`Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS` `Docker` `Kubernetes`
+`Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS` 
 
