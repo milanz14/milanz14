@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import UserItem from "@/components/UserItem.vue";
 export default {
   components: {
