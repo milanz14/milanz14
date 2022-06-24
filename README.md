@@ -14,5 +14,5 @@ i'm Milan, a software developer from the Toronto area. I have a passion for all 
 
 # Learning Queue
 
-`Docker` `Kubernetes` `DevOps` `Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS` 
+`Docker` `Kubernetes` `Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS` 
 
