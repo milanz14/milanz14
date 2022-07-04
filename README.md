@@ -1,5 +1,7 @@
 # 💫 About Me:
-I'm Milan, a software developer from the Toronto area. I have a passion for all things JavaScript. <br><br>I am well versed with React and Vue. 
+I'm Milan, a software developer from the Toronto area. I have a passion for all things JavaScript. <br><br>
+
+❤️ React and Vue.
 
 
 # 💻 Tech Stack:
