@@ -1,11 +1,9 @@
-<template>
-  <h1>Home</h1>
-</template>
-
-<script>
-export default {
-  //
-};
+<script setup>
+import TheWelcome from '@/components/TheWelcome.vue'
 </script>
 
-<style></style>
+<template>
+  <main>
+    <TheWelcome />
+  </main>
+</template>
