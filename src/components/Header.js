@@ -5,7 +5,7 @@ import "../styles/Header.css";
 
 const Header = () => {
   return (
-    <nav className=" p-5 bg-primary shadow md:flex md:items-center md:justify-between z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300">
+    <nav className="left-0 h-48 sm:h-64 xs:h-64 p-5 bg-primary shadow md:flex md:items-center md:justify-between z-[-1] md:z-auto md:static absolute w-full left-1 md:w-auto md:py-0 py-4">
       <div clasName="flex justify-between items-center">
         <span class="glow text-sm text-black uppercase cursor-pointer py-4">
           <NavLink to="/">
