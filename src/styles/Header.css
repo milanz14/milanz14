@@ -1,17 +1,43 @@
-.glow {
-    font-size: 35px;
-    color: #BEE9E8;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #62B6CB, 0 0 40px #62B6CB, 0 0 50px #62B6CB, 0 0 60px #62B6CB, 0 0 70px #62B6CB;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #BEE9E8, 0 0 40px #BEE9E8, 0 0 50px #BEE9E8, 0 0 60px #BEE9E8, 0 0 70px #BEE9E8, 0 0 80px #BEE9E8;
-    }
-  }
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 24px;
+    height: 2px;
+    background:    #B298DC;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
