@@ -6,7 +6,7 @@ body {
   background-image: url("./assets/bg-violet.jpg");
   background-repeat: no-repeat;
   background-size: 1600px;
-  background-position: 90% 45%;
+  background-position: 90% 15%;
 }
 
 @media(max-width: 767px) {

@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="container relative  mx-auto p-6 bg-transparent">
+    <nav className="container relative mx-auto p-6 bg-transparent sticky top-0 z-50">
       <div className="flex items-center justify-between text-primary">
         {/* <!-- logo --> */}
         <Link to="/">
