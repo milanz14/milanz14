@@ -9,6 +9,10 @@ body {
   background-position: 90% 15%;
 }
 
+.showing {
+    /*  */
+}
+
 @media(max-width: 767px) {
     body {
         background-size: 1600px;
