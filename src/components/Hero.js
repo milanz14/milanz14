@@ -5,28 +5,30 @@ import memeoji from "../assets/memeoji.png";
 const Hero = () => {
   return (
     <section id="hero">
-      <div className="container flex flex-col md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+      <div className="container h-full flex flex-col md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
         <div className="flex flex-col mb-8 space-y-8 md:w-1/2">
           <h1 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-5xl font-bold text-center md:text-5xl md:text-left">
             Milan Zagorac <br />
             Web Developer
           </h1>
-          <p className="max-w-sm text-center bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 md:text-left">
-            Full stack web developer with a passion for JavaScript. My areas of
-            expertise are React, Vue, TypeScript and Node.
+          <p className="max-w-sm pt-10 text-center bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 md:text-left">
+            I write code and I love what I do.
           </p>
           <div className="flex flex-col md:hidden transform transition duration-500 hover:scale-105">
             <img src={memeoji} alt="developer memeoji" />
           </div>
           <div className="flex justify-center md:justify-start">
-            <a className="p-3 px-6 pt-2 text-white bg-primary rounded-full baseline hover:cursor-pointer transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100">
+            <a
+              href="#contact"
+              className="p-3 px-6 pt-2 text-white bg-primary rounded-full baseline hover:cursor-pointer transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100"
+            >
               Contact Me
             </a>
           </div>
         </div>
 
         <div className="hover:drop-shadow-lg md:w-1/2">
-          <img src={HeroImg} />
+          <img src={HeroImg} alt="details code snippet" />
         </div>
       </div>
     </section>

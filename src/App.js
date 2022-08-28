@@ -1,20 +1,18 @@
-import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import AboutCard from "./components/AboutCard";
-import ProjectCard from "./components/ProjectCard";
+import Projects from "./components/Projects";
 import Hero from "./components/Hero";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div>
       <div>
         <Header />
-        {/* <Routes>
-          <Route exact path="/" element={<Hero />} />
-          <Route exact path="/projects" element={<ProjectCard />} />
-          <Route exact path="/about" element={<AboutCard />} />
-        </Routes> */}
         <Hero />
+        <AboutCard />
+        <Projects />
+        <Contact />
       </div>
     </div>
   );

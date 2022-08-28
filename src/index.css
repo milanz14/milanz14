@@ -2,20 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url("./assets/bg-violet.jpg");
   background-repeat: no-repeat;
   background-size: 1600px;
+  background-position: 90% -10%;
+}
+
+#menu {
+  background-image: url("./assets/bg-violet.jpg");
   background-position: 90% 15%;
+  background-size: 600px;
+  background-repeat: no-repeat;
 }
 
-.showing {
-    /*  */
-}
-
-@media(max-width: 767px) {
-    body {
-        background-size: 1600px;
-        background-position: 50% -25px;
-    }
+@media (max-width: 767px) {
+  body {
+    background-size: 1600px;
+    background-position: 50% -25px;
+  }
 }
