@@ -338,6 +338,86 @@ const Projects = () => {
           </div>
         </div>
 
+        {/* Projects Container */}
+        <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
+          {/* Project 4 */}
+          <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
+            <img
+              className="w-21 -mt-10"
+              src={projectData[6].imgSrc}
+              alt="project screenshot"
+            />
+            <h5 className="text-white text-lg font-bold">
+              {projectData[6].subtitle} - {projectData[6].name}
+            </h5>
+            <p className="text-sm text-white">{projectData[6].description}</p>
+            <div className="flex flex-row items-center">
+              <a
+                href={projectData[6].githubLink}
+                target="_blank"
+                className="text-white px-4"
+              >
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a
+                href={projectData[6].liveSite}
+                className="text-white px-4"
+                target="_blank"
+              >
+                <i className="fa-solid fa-pager"></i>
+              </a>
+            </div>
+            <div>
+              {projectData[6].tech.map((data, idx) => (
+                <span
+                  key={idx}
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
+                >
+                  {data}
+                </span>
+              ))}
+            </div>
+          </div>
+          {/* Project 5 */}
+          <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
+            <img
+              className="w-21 -mt-10"
+              src={projectData[7].imgSrc}
+              alt="project screenshot"
+            />
+            <h5 className="text-white text-lg font-bold">
+              {projectData[7].subtitle} - {projectData[7].name}
+            </h5>
+            <p className="text-sm text-white">{projectData[7].description}</p>
+            <div className="flex flex-row items-center">
+              <a
+                href={projectData[7].githubLink}
+                target="_blank"
+                className="text-white px-4"
+              >
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a
+                href={projectData[7].liveSite}
+                className="text-white px-4"
+                target="_blank"
+              >
+                <i className="fa-solid fa-pager"></i>
+              </a>
+            </div>
+            <div>
+              {projectData[7].tech.map((data, idx) => (
+                <span
+                  key={idx}
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
+                >
+                  {data}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
         <div className="my-16">
           <a
             href="#contact"

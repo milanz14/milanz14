@@ -28,7 +28,11 @@ const Contact = () => {
             <label htmlFor="message" className="text-white py-2">
               Message
             </label>
-            <input className="rounded" id="message" name="message" />
+            <textarea
+              className="rounded w-80 h-32"
+              id="message"
+              name="message"
+            />
             <ValidationError
               prefix="Message"
               field="message"
