@@ -20,7 +20,7 @@ const Header = () => {
         {/* <!-- logo --> */}
         <button
           onClick={handleScrollToTop}
-          className="hover:cursor-pointer hover:scale-105"
+          className="hover:cursor-pointer transform transition duration-500 hover:scale-105"
         >
           <div className="pt-2">
             <img src={headerLogo} alt="logo" className="bg-transparent" />

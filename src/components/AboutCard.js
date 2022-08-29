@@ -8,7 +8,7 @@ const AboutCard = () => {
           <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-5xl font-bold text-center md:text-5xl md:text-left">
             About Me
           </h2>
-          <p className="max-w-sm text-center text-darkGrayishBlue py-6 md:text-left">
+          <p className="max-w-sm text-left text-black py-6 md:text-left">
             I'm a full stack web developer focused on building interactive and
             responsive websites. My favourite part about development is that
             there is no shortage of learning opportunities. I code daily and
