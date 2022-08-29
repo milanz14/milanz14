@@ -10,10 +10,10 @@ const Project = ({
   tech,
 }) => {
   return (
-    <div className="flex flex-col mt-12 md:flex-row md:space-x-6">
-      <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-tertiary md:w-1/2">
+    <div className="flex flex-col items-center mt-12 md:flex-row">
+      <div className="flex flex-col h-50 items-center p-6 space-y-6 rounded-lg bg-tertiary md:w-1/2">
         <img
-          className="object-cover w-full h-96 md:h-auto md:w-48 md:rounded-none md:rounded"
+          className="object-cover w-full h-50 md:h-auto md:w-48 md:rounded-none md:rounded"
           src={imgSrc}
           alt="project screenshot"
         />
@@ -22,6 +22,14 @@ const Project = ({
             {subtitle} - {name}
           </h5>
           <p className="mb-3 font-normal text-white">{description}</p>
+        </div>
+        <div className="flex flex-row items-center">
+          <button className="text-white px-4">
+            <i class="fa-brands fa-github"></i>
+          </button>
+          <button className="text-white px-4">
+            <i class="fa-solid fa-pager"></i>
+          </button>
         </div>
       </div>
     </div>
