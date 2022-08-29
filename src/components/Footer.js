@@ -1,5 +1,7 @@
 import React from "react";
 import headerLogo from "../assets/header-logo.png";
+import twitter from "../assets/icon-twitter.svg";
+import youtube from "../assets/icon-youtube.svg";
 
 const Footer = () => {
   const handleScrollToTop = () => {
@@ -20,54 +22,41 @@ const Footer = () => {
             onClick={handleScrollToTop}
             className="hover:cursor-pointer transform transition duration-500 hover:scale-105"
           >
-            <div className="pt-2">
-              <img src={headerLogo} alt="logo" className="bg-transparent" />
-            </div>
+            <h1 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-5xl font-bold text-center md:text-5xl md:text-left">
+              mz
+            </h1>
           </button>
           {/* <!-- Social Links Container --> */}
           <div className="flex justify-center space-x-4 py-2">
             <a href="#">
-              <img src="img/icon-facebook.svg" className="h-8" alt="" />
+              <img src={twitter} className="h-8" alt="" />
             </a>
             <a href="#">
-              <img src="img/icon-youtube.svg" className="h-8" alt="" />
-            </a>
-            <a href="#">
-              <img src="img/icon-twitter.svg" className="h-8" alt="" />
-            </a>
-            <a href="#">
-              <img src="img/icon-pinterest.svg" className="h-8" alt="" />
-            </a>
-            <a href="#">
-              <img src="img/icon-instagram.svg" className="h-8" alt="" />
+              <img src={youtube} className="h-8" alt="" />
             </a>
           </div>
         </div>
         {/* <!-- List container --> */}
         <div className="flex justify-around space-x-32">
-          <div className="flex flex-col space-y-3 text-white">
-            <a href="#" className="hover:text-brightRed">
-              Home
-            </a>
-            <a href="#" className="hover:text-brightRed">
-              Pricing
-            </a>
-            <a href="#" className="hover:text-brightRed">
-              Products
-            </a>
-            <a href="#" className="hover:text-brightRed">
+          <div className="flex flex-col space-y-3 text-secondary">
+            <a
+              href="#about"
+              className="hover:text-tertiary hover:cursor-pointer"
+            >
               About
             </a>
-          </div>
-          <div className="flex flex-col space-y-3 text-white">
-            <a href="#" className="hover:text-brightRed">
-              Careers
+
+            <a
+              href="#projects"
+              className="hover:text-tertiary hover:cursor-pointer"
+            >
+              Projects
             </a>
-            <a href="#" className="hover:text-brightRed">
-              Community
-            </a>
-            <a href="#" className="hover:text-brightRed">
-              Privacy Policy
+            <a
+              href="#contact"
+              className="hover:text-tertiary hover:cursor-pointer"
+            >
+              Contact
             </a>
           </div>
         </div>
