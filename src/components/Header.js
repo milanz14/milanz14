@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import headerLogo from "../assets/header-logo.png";
 import "../styles/header.css";
 
 const Header = () => {
@@ -20,27 +19,32 @@ const Header = () => {
         {/* <!-- logo --> */}
         <button
           onClick={handleScrollToTop}
-          className="hover:cursor-pointer hover:scale-105"
+          className="hover:cursor-pointer transform transition duration-500 hover:scale-105"
         >
           <div className="pt-2">
-            <img src={headerLogo} alt="logo" className="bg-transparent" />
+            <h1 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-5xl font-bold text-center md:text-5xl md:text-left">
+              <i className="fa-solid fa-laptop-code pr-2"></i>mz
+            </h1>
           </div>
         </button>
         {/* <!-- Menu Items --> */}
 
         <div className="hidden md:flex space-x-4">
-          <a href="#about" className="hover:text-tertiary hover:cursor-pointer">
+          <a
+            href="#about"
+            className="hover:text-tertiary hover:cursor-pointer transform transition duration-500 hover:scale-105"
+          >
             About
           </a>
           <a
             href="#projects"
-            className="hover:text-tertiary hover:cursor-pointer"
+            className="hover:text-tertiary hover:cursor-pointer transform transition duration-500 hover:scale-105"
           >
             Projects
           </a>
           <a
             href="#contact"
-            className="hover:text-tertiary hover:cursor-pointer"
+            className="hover:text-tertiary hover:cursor-pointer transform transition duration-500 hover:scale-105"
           >
             Contact
           </a>

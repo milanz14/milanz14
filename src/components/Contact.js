@@ -14,7 +14,12 @@ const Contact = () => {
             <label htmlFor="email" className="text-white py-2">
               Email Address
             </label>
-            <input className="rounded" id="email" type="email" name="email" />
+            <input
+              className="rounded w-80"
+              id="email"
+              type="email"
+              name="email"
+            />
             <ValidationError
               prefix="Email"
               field="email"
@@ -23,7 +28,11 @@ const Contact = () => {
             <label htmlFor="message" className="text-white py-2">
               Message
             </label>
-            <input className="rounded" id="message" name="message" />
+            <textarea
+              className="rounded w-80 h-32"
+              id="message"
+              name="message"
+            />
             <ValidationError
               prefix="Message"
               field="message"
@@ -54,19 +63,24 @@ const Contact = () => {
           <label htmlFor="email" className="text-white py-2">
             Email Address
           </label>
-          <input id="email" type="email" name="email" />
+          <input
+            className="rounded w-80"
+            id="email"
+            type="email"
+            name="email"
+          />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <label htmlFor="message" className="text-white py-2">
             Message
           </label>
-          <input id="message" name="message" />
+          <textarea className="rounded w-80 h-32" id="message" name="message" />
           <ValidationError
             prefix="Message"
             field="message"
             errors={state.errors}
           />
           <button
-            className="my-6 text-white bg-tertiary"
+            className="my-6 text-white bg-tertiary rounded transition ease-in delay-50 hover:scale-105"
             type="submit"
             disabled={state.submitting}
           >

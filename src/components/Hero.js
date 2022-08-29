@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="hover:drop-shadow-lg md:w-1/2">
+        <div className="hover:drop-shadow-lg md:w-1/2 transform transition duration-500 hover:scale-105">
           <img src={HeroImg} alt="details code snippet" />
         </div>
       </div>
