@@ -1,5 +1,4 @@
 import React from "react";
-import Project from "./Project";
 import crypto from "../assets/crypto.png";
 import quizzly from "../assets/quizzly.png";
 import paintrest from "../assets/paintrest.png";
@@ -98,26 +97,121 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <div className="flex flex-col max-w-6xl px-5 mx-auto mt-12 text-center">
-        {/* <!-- Heading --> */}
+      <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
         <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-5xl font-bold text-center md:text-5xl">
           Projects
         </h2>
-        {projectData.map((project, idx) => (
-          <Project
-            key={idx}
-            name={project.name}
-            imgSrc={project.imgSrc}
-            subtitle={project.subtitle}
-            githubLink={project.githubLink}
-            liveSite={project.liveSite}
-            description={project.description}
-            tech={project.tech}
-          />
-        ))}
 
-        {/* <!-- Button --> */}
-        <div className="flex justify-center mt-16">
+        {/* Projects Container */}
+        <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
+          {/* Project 1 */}
+          <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/2">
+            <img
+              className="w-21 -mt-10"
+              src={projectData[0].imgSrc}
+              alt="project screenshot"
+            />
+            <h5 className="text-white text-lg font-bold">
+              {projectData[0].subtitle}
+            </h5>
+            <p className="text-sm text-white">{projectData[0].description}</p>
+            <div className="flex flex-row items-center">
+              <a
+                href={projectData[0].githubLink}
+                target="_blank"
+                className="text-white px-4"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href={projectData[0].liveSite}
+                className="text-white px-4"
+                target="_blank"
+              >
+                <i class="fa-solid fa-pager"></i>
+              </a>
+            </div>
+            <div>
+              {projectData[0].tech.map((data) => (
+                <span className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
+                  {data}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:flex md:w-1/2">
+          <img
+            className="w-21 -mt-10"
+            src={projectData[1].imgSrc}
+            alt="project screenshot"
+          />
+          <h5 className="text-white text-lg font-bold">
+            {projectData[1].subtitle}
+          </h5>
+          <p className="text-sm text-white">{projectData[1].description}</p>
+          <div className="flex flex-row items-center">
+            <a
+              href={projectData[1].githubLink}
+              target="_blank"
+              className="text-white px-4"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href={projectData[1].liveSite}
+              className="text-white px-4"
+              target="_blank"
+            >
+              <i class="fa-solid fa-pager"></i>
+            </a>
+          </div>
+          <div className="mb-2">
+            {projectData[1].tech.map((data) => (
+              <span className="inline-block bg-tertiary rounded-full px-3 py-1 text-sm text-white mr-2">
+                {data}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div className="hidden flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:flex md:w-1/2">
+          <img
+            className="w-21 -mt-10"
+            src={projectData[2].imgSrc}
+            alt="project screenshot"
+          />
+          <h5 className="text-white text-lg font-bold">
+            {projectData[2].subtitle}
+          </h5>
+          <p className="text-sm text-white">{projectData[2].description}</p>
+          <div className="flex flex-row items-center">
+            <a
+              href={projectData[2].githubLink}
+              target="_blank"
+              className="text-white px-4"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href={projectData[2].liveSite}
+              className="text-white px-4"
+              target="_blank"
+            >
+              <i class="fa-solid fa-pager"></i>
+            </a>
+          </div>
+          <div className="mb-2">
+            {projectData[2].tech.map((data) => (
+              <span className="inline-block bg-tertiary rounded-full px-3 py-1 text-sm text-white mr-2">
+                {data}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div class="my-16">
           <a
             href="#contact"
             className="p-3 px-6 pt-2 text-white bg-primary rounded-full baseline hover:cursor-pointer transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100"
