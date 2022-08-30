@@ -1,7 +1,7 @@
 import React from "react";
-import headerLogo from "../assets/header-logo.png";
-import twitter from "../assets/icon-twitter.svg";
-import youtube from "../assets/icon-youtube.svg";
+// import headerLogo from "../assets/header-logo.png";
+// import twitter from "../assets/icon-twitter.svg";
+// import youtube from "../assets/icon-youtube.svg";
 
 const Footer = () => {
   const handleScrollToTop = () => {
@@ -29,14 +29,14 @@ const Footer = () => {
             </div>
           </button>
           {/* <!-- Social Links Container --> */}
-          <div className="flex justify-center space-x-4 py-2">
+          {/* <div className="flex justify-center space-x-4 py-2">
             <a href="#">
               <img src={twitter} className="h-8" alt="" />
             </a>
             <a href="#">
               <img src={youtube} className="h-8" alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
         {/* <!-- List container --> */}
         <div className="flex justify-around space-x-32">
