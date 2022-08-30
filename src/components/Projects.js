@@ -99,7 +99,7 @@ const Projects = () => {
     <section id="projects">
       <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
         <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl">
-          <i class="fa-solid fa-terminal pr-4"></i> Projects List:{" "}
+          <i className="fa-solid fa-terminal pr-4"></i> Projects List:{" "}
           {projectData.length}
         </h2>
 
@@ -121,6 +121,7 @@ const Projects = () => {
                 href={projectData[0].githubLink}
                 target="_blank"
                 className="text-white px-4"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -128,6 +129,7 @@ const Projects = () => {
                 href={projectData[0].liveSite}
                 className="text-white px-4"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-pager"></i>
               </a>
@@ -159,6 +161,7 @@ const Projects = () => {
                 href={projectData[1].githubLink}
                 target="_blank"
                 className="text-white px-4"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -166,6 +169,7 @@ const Projects = () => {
                 href={projectData[1].liveSite}
                 className="text-white px-4"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-pager"></i>
               </a>
@@ -197,6 +201,7 @@ const Projects = () => {
                 href={projectData[2].githubLink}
                 target="_blank"
                 className="text-white px-4"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -204,6 +209,7 @@ const Projects = () => {
                 href={projectData[2].liveSite}
                 className="text-white px-4"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-pager"></i>
               </a>
@@ -239,6 +245,7 @@ const Projects = () => {
                 href={projectData[3].githubLink}
                 target="_blank"
                 className="text-white px-4"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -246,6 +253,7 @@ const Projects = () => {
                 href={projectData[3].liveSite}
                 className="text-white px-4"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-pager"></i>
               </a>
@@ -277,6 +285,7 @@ const Projects = () => {
                 href={projectData[4].githubLink}
                 target="_blank"
                 className="text-white px-4"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -284,6 +293,7 @@ const Projects = () => {
                 href={projectData[4].liveSite}
                 className="text-white px-4"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-pager"></i>
               </a>
@@ -315,6 +325,7 @@ const Projects = () => {
                 href={projectData[5].githubLink}
                 target="_blank"
                 className="text-white px-4"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -322,6 +333,7 @@ const Projects = () => {
                 href={projectData[5].liveSite}
                 className="text-white px-4"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-pager"></i>
               </a>
@@ -357,6 +369,7 @@ const Projects = () => {
                 href={projectData[6].githubLink}
                 target="_blank"
                 className="text-white px-4"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -364,6 +377,7 @@ const Projects = () => {
                 href={projectData[6].liveSite}
                 className="text-white px-4"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-pager"></i>
               </a>
@@ -395,6 +409,7 @@ const Projects = () => {
                 href={projectData[7].githubLink}
                 target="_blank"
                 className="text-white px-4"
+                rel="noopener noreferrer"
               >
                 <i className="fa-brands fa-github"></i>
               </a>
@@ -402,6 +417,7 @@ const Projects = () => {
                 href={projectData[7].liveSite}
                 className="text-white px-4"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-pager"></i>
               </a>

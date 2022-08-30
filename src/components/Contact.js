@@ -68,12 +68,18 @@ const Contact = () => {
             id="email"
             type="email"
             name="email"
+            required
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <label htmlFor="message" className="text-white py-2">
             Message
           </label>
-          <textarea className="rounded w-80 h-32" id="message" name="message" />
+          <textarea
+            className="rounded w-80 h-32"
+            id="message"
+            name="message"
+            required
+          />
           <ValidationError
             prefix="Message"
             field="message"
