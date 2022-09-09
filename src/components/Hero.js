@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImg from "../assets/hero-img.png";
 import memeoji from "../assets/memeoji.png";
+import avatar from "../assets/avatar.png";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
             I write code and I love what I do.
           </p>
           <div className="flex flex-col md:hidden transform transition duration-500 hover:scale-105">
-            <img src={memeoji} alt="developer memeoji" />
+            <img src={avatar} alt="developer memeoji" />
           </div>
           <div className="flex justify-center md:justify-start">
             <a
