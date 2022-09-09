@@ -16,7 +16,7 @@ This repository's content is hosted [here](https://milanz14.netlify.app/)
 
 # 📚 Learning Queue
 
-`Docker` `Kubernetes` `Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS` 
+`Java` `Docker` `Kubernetes` `Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS` 
 
 
 
