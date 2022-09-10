@@ -1,7 +1,7 @@
 # 💫 About Me:
 I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript. ❤️ React and Vue. Growing and learning daily. 
 <br><br>
-This repository's content is hosted [here](https://milanz14.netlify.app/)
+This repository's content is hosted [here](https://www.milanz.dev/)
 
 
 # 💻 Tech Stack:
