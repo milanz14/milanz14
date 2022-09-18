@@ -7,6 +7,7 @@ import shortening from "../assets/shortening.png";
 import budgee from "../assets/budgee.png";
 import mortgage from "../assets/mortgage.png";
 import pledge from "../assets/pledge.png";
+import wordle from "../assets/wordle.png";
 
 const Projects = () => {
   const projectData = [
@@ -92,6 +93,16 @@ const Projects = () => {
       description:
         "Front end application that calculates monthly payments for a loan/mortgage you are considering.",
       tech: ["React"],
+    },
+    {
+      name: "6Wordle",
+      subtitle: "Front End",
+      githubLink: "https://github.com/milanz14/react-typescript-wordle",
+      liveSite: "https://6wordle.netlify.app/",
+      imgSrc: wordle,
+      description:
+        "A Wordle clone built with React and TypeScript for 6 letter words. This adds an extra degree of complexity than the base 5-letter Wordle game.",
+      tech: ["React", "TypeScript"],
     },
   ];
 
@@ -424,6 +435,46 @@ const Projects = () => {
             </div>
             <div>
               {projectData[7].tech.map((data, idx) => (
+                <span
+                  key={idx}
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
+                >
+                  {data}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
+            <img
+              className="w-21 -mt-10"
+              src={projectData[8].imgSrc}
+              alt="project screenshot"
+            />
+            <h5 className="text-white text-lg font-bold">
+              {projectData[8].subtitle} - {projectData[8].name}
+            </h5>
+            <p className="text-sm text-white">{projectData[8].description}</p>
+            <div className="flex flex-row items-center">
+              <a
+                href={projectData[8].githubLink}
+                target="_blank"
+                className="text-white px-4"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a
+                href={projectData[8].liveSite}
+                className="text-white px-4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-solid fa-pager"></i>
+              </a>
+            </div>
+            <div>
+              {projectData[8].tech.map((data, idx) => (
                 <span
                   key={idx}
                   className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
