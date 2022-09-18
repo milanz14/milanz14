@@ -45,7 +45,7 @@ const Contact = () => {
             >
               Submit
             </button>
-            <p className="text-white">
+            <p className="text-white md:max-w-xl">
               Thanks for reaching out. I'll get back to you as soon as I can.
             </p>
           </form>
