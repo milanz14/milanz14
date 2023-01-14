@@ -11,7 +11,6 @@ This repository's content is hosted [here](https://www.milanz.dev/)
 # 🏋🏻‍♀️ Working on:
 
   - SaveMyFave: save your favorite meals at your favorite restaurants for quick reference the next time you eat at that restaurant.
-  - savee: budget tool, save your way to wealth! (full stack w/Firebase back end)
   - mybusinessbooks: book keeping tool for SMB - MEVN stack (full stack)
   - weighter: daily weight tracking and water consumption tracking - Vue3 w/Firebase back end.
 
