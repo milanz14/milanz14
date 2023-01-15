@@ -397,21 +397,21 @@ const Projects = () => {
           </div>
 
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img className="w-21 -mt-10" src={projectData[9].imgSrc} alt="project screenshot" />
+            <img className="w-21 -mt-10" src={projectData[8].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
-              {projectData[9].subtitle} - {projectData[9].name}
+              {projectData[8].subtitle} - {projectData[8].name}
             </h5>
-            <p className="text-sm text-white">{projectData[9].description}</p>
+            <p className="text-sm text-white">{projectData[8].description}</p>
             <div className="flex flex-row items-center">
               <a
-                href={projectData[9].githubLink}
+                href={projectData[8].githubLink}
                 target="_blank"
                 className="text-white px-4"
                 rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
-                href={projectData[9].liveSite}
+                href={projectData[8].liveSite}
                 className="text-white px-4"
                 target="_blank"
                 rel="noopener noreferrer">
@@ -419,7 +419,7 @@ const Projects = () => {
               </a>
             </div>
             <div>
-              {projectData[9].tech.map((data, idx) => (
+              {projectData[8].tech.map((data, idx) => (
                 <span
                   key={idx}
                   className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
