@@ -8,6 +8,7 @@ import budgee from "../assets/budgee.png";
 import mortgage from "../assets/mortgage.png";
 import pledge from "../assets/pledge.png";
 import wordle from "../assets/wordle.png";
+import savee from "../assets/savee-table.png";
 
 const Projects = () => {
   const projectData = [
@@ -55,8 +56,7 @@ const Projects = () => {
       name: "ShortenIt",
       subtitle: "Front End",
       githubLink: "https://github.com/milanz14/shorten-it",
-      liveSite:
-        "https://theshortening.netlify.app/" || "Currently Not Deployed",
+      liveSite: "https://theshortening.netlify.app/" || "Currently Not Deployed",
       imgSrc: shortening,
       description:
         "Front end application consuming the bit.ly API for URL shortening. Must pass a URL string including the correct scheme for the shortener to recognize it as a valid URL.",
@@ -76,8 +76,7 @@ const Projects = () => {
       name: "CryptoTraker",
       subtitle: "Front End",
       githubLink: "https://github.com/milanz14/CryptoTracker",
-      liveSite:
-        "https://cryptotracker-list.surge.sh/" || "Currently Not Deployed",
+      liveSite: "https://cryptotracker-list.surge.sh/" || "Currently Not Deployed",
       imgSrc: crypto,
       description:
         "Front end application which queries the CoinGecko API to display the latest in Crypto trends.",
@@ -87,8 +86,7 @@ const Projects = () => {
       name: "Mortgage Calc",
       subtitle: "Front End",
       githubLink: "https://github.com/milanz14/simple-mortgage-calc",
-      liveSite:
-        "https://simple-mortgage-calc.netlify.app/" || "Currently Not Deployed",
+      liveSite: "https://simple-mortgage-calc.netlify.app/" || "Currently Not Deployed",
       imgSrc: mortgage,
       description:
         "Front end application that calculates monthly payments for a loan/mortgage you are considering.",
@@ -104,25 +102,30 @@ const Projects = () => {
         "A Wordle clone built with React and TypeScript for 6 letter words. This adds an extra degree of complexity than the base 5-letter Wordle game.",
       tech: ["React", "TypeScript"],
     },
+    {
+      name: "Savee",
+      subtitle: "Full Stack",
+      githubLink: "https://github.com/milanz14/savee",
+      liveSite: "https://savee.netlify.app/",
+      imgSrc: savee,
+      description:
+        "A budget tracking app built with React, TypeScript and Firebase. A user's transactions are tracked manually.",
+      tech: ["React", "TypeScript", "Firebase"],
+    },
   ];
 
   return (
     <section id="projects">
       <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
         <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl">
-          <i className="fa-solid fa-terminal pr-4"></i> Projects List:{" "}
-          {projectData.length}
+          <i className="fa-solid fa-terminal pr-4"></i> Projects List: {projectData.length}
         </h2>
 
         {/* Projects Container */}
         <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
           {/* Project 1 */}
           <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[0].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[0].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
               {projectData[0].subtitle} - {projectData[0].name}
             </h5>
@@ -132,16 +135,14 @@ const Projects = () => {
                 href={projectData[0].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href={projectData[0].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
@@ -149,8 +150,7 @@ const Projects = () => {
               {projectData[0].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -158,11 +158,7 @@ const Projects = () => {
           </div>
           {/* Project 2 */}
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[1].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[1].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
               {projectData[1].subtitle} - {projectData[1].name}
             </h5>
@@ -172,16 +168,14 @@ const Projects = () => {
                 href={projectData[1].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href={projectData[1].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
@@ -189,8 +183,7 @@ const Projects = () => {
               {projectData[1].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -198,11 +191,7 @@ const Projects = () => {
           </div>
           {/* Project 3 */}
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[2].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[2].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
               {projectData[2].subtitle} - {projectData[2].name}
             </h5>
@@ -212,16 +201,14 @@ const Projects = () => {
                 href={projectData[2].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href={projectData[2].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
@@ -229,8 +216,7 @@ const Projects = () => {
               {projectData[2].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -242,11 +228,7 @@ const Projects = () => {
         <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
           {/* Project 4 */}
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[3].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[3].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
               {projectData[3].subtitle} - {projectData[3].name}
             </h5>
@@ -256,16 +238,14 @@ const Projects = () => {
                 href={projectData[3].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href={projectData[3].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
@@ -273,8 +253,7 @@ const Projects = () => {
               {projectData[3].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -282,11 +261,7 @@ const Projects = () => {
           </div>
           {/* Project 5 */}
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[4].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[4].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
               {projectData[4].subtitle} - {projectData[4].name}
             </h5>
@@ -296,16 +271,14 @@ const Projects = () => {
                 href={projectData[4].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href={projectData[4].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
@@ -313,8 +286,7 @@ const Projects = () => {
               {projectData[4].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -322,11 +294,7 @@ const Projects = () => {
           </div>
           {/* Project 6 */}
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[5].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[5].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
               {projectData[5].subtitle} - {projectData[5].name}
             </h5>
@@ -336,16 +304,14 @@ const Projects = () => {
                 href={projectData[5].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href={projectData[5].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
@@ -353,8 +319,7 @@ const Projects = () => {
               {projectData[5].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -366,11 +331,7 @@ const Projects = () => {
         <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
           {/* Project 4 */}
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[6].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[6].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
               {projectData[6].subtitle} - {projectData[6].name}
             </h5>
@@ -380,16 +341,14 @@ const Projects = () => {
                 href={projectData[6].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href={projectData[6].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
@@ -397,8 +356,7 @@ const Projects = () => {
               {projectData[6].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -406,11 +364,7 @@ const Projects = () => {
           </div>
           {/* Project 5 */}
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[7].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[7].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
               {projectData[7].subtitle} - {projectData[7].name}
             </h5>
@@ -420,16 +374,14 @@ const Projects = () => {
                 href={projectData[7].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
                 href={projectData[7].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
@@ -437,8 +389,7 @@ const Projects = () => {
               {projectData[7].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -446,39 +397,65 @@ const Projects = () => {
           </div>
 
           <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
-            <img
-              className="w-21 -mt-10"
-              src={projectData[8].imgSrc}
-              alt="project screenshot"
-            />
+            <img className="w-21 -mt-10" src={projectData[9].imgSrc} alt="project screenshot" />
             <h5 className="text-white text-lg font-bold">
-              {projectData[8].subtitle} - {projectData[8].name}
+              {projectData[9].subtitle} - {projectData[9].name}
             </h5>
-            <p className="text-sm text-white">{projectData[8].description}</p>
+            <p className="text-sm text-white">{projectData[9].description}</p>
             <div className="flex flex-row items-center">
               <a
-                href={projectData[8].githubLink}
+                href={projectData[9].githubLink}
                 target="_blank"
                 className="text-white px-4"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
-                href={projectData[8].liveSite}
+                href={projectData[9].liveSite}
                 className="text-white px-4"
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <i className="fa-solid fa-pager"></i>
               </a>
             </div>
             <div>
-              {projectData[8].tech.map((data, idx) => (
+              {projectData[9].tech.map((data, idx) => (
                 <span
                   key={idx}
-                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                >
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
+                  {data}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div className="hidden md:flex flex-col items-center p-6 space-y-6 rounded-lg bg-primary md:w-1/3">
+            <img className="w-21 -mt-10" src={projectData[9].imgSrc} alt="project screenshot" />
+            <h5 className="text-white text-lg font-bold">
+              {projectData[9].subtitle} - {projectData[9].name}
+            </h5>
+            <p className="text-sm text-white">{projectData[9].description}</p>
+            <div className="flex flex-row items-center">
+              <a
+                href={projectData[9].githubLink}
+                target="_blank"
+                className="text-white px-4"
+                rel="noopener noreferrer">
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a
+                href={projectData[9].liveSite}
+                className="text-white px-4"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i className="fa-solid fa-pager"></i>
+              </a>
+            </div>
+            <div>
+              {projectData[9].tech.map((data, idx) => (
+                <span
+                  key={idx}
+                  className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2">
                   {data}
                 </span>
               ))}
@@ -489,8 +466,7 @@ const Projects = () => {
         <div className="my-16">
           <a
             href="#contact"
-            className="p-3 px-6 pt-2 text-white bg-primary rounded-full baseline hover:cursor-pointer transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100"
-          >
+            className="p-3 px-6 pt-2 text-white bg-primary rounded-full baseline hover:cursor-pointer transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100">
             Contact Me
           </a>
         </div>
