@@ -1,6 +1,28 @@
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const AboutCard = () => {
+  const { ref, inView } = useInView();
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        translateX: 0,
+        opacity: 1,
+        transition: {
+          type: "spring",
+          duration: 1,
+          bounce: 0.3,
+        },
+      });
+    }
+    if (!inView) {
+      animation.start({ translateX: 400, opacity: 0 });
+    }
+  }, [inView]);
+
   const skills = [
     {
       description: "Front End Skills and Technologies",
@@ -34,13 +56,9 @@ const AboutCard = () => {
           </p>
         </div>
         {/* Numbered List */}
-        <div className="flex flex-col space-y-8 md:w-1/2">
+        <div className="flex flex-col space-y-8 md:w-1/2" ref={ref}>
           {skills.map((skill, idx) => (
-            <motion.div
-              initial={{ opacity: 0, translateX: 400 }}
-              animate={{ opacity: 1, translateX: 0 }}
-              transition={{ type: "spring", duration: 0.25 * idx + 1 }}
-            >
+            <motion.div animate={animation} key={skill.description}>
               <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
                 <div className="rounded-l-full bg-tertiary md:bg-transparent">
                   <div className="flex items-center space-x-2">
