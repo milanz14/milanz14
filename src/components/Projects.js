@@ -11,6 +11,8 @@ import wordle from "../assets/wordle.png";
 import savee from "../assets/savee-table.png";
 import passgen from "../assets/passgen.png";
 
+import { motion } from "framer-motion";
+
 const Projects = () => {
   const projectData = [
     {
