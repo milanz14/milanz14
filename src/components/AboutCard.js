@@ -12,9 +12,7 @@ const AboutCard = () => {
         translateX: 0,
         opacity: 1,
         transition: {
-          type: "spring",
           duration: 1,
-          bounce: 0.3,
         },
       });
     }
@@ -43,45 +41,47 @@ const AboutCard = () => {
 
   return (
     <section id="about">
-      <div className="container flex flex-col px-4 mx-auto mt-10 mt-16 space-y-12 md:space-y-0 md:flex-row">
-        <div className="flex flex-col items-center pr-6 space-y-0 md:w-1/2">
-          <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl md:text-left">
-            <i className="fa-solid fa-terminal pr-4"></i> About Me
-          </h2>
-          <p className="max-w-sm text-left text-black py-6 md:text-left">
-            I'm a full stack web developer focused on building interactive and
-            responsive websites. My favourite part about development is that
-            there is no shortage of learning opportunities. I code daily and
-            learn something new each day.
-          </p>
-        </div>
-        {/* Numbered List */}
-        <div className="flex flex-col space-y-8 md:w-1/2" ref={ref}>
-          {skills.map((skill, idx) => (
-            <motion.div animate={animation} key={skill.description}>
-              <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
-                <div className="rounded-l-full bg-tertiary md:bg-transparent">
-                  <div className="flex items-center space-x-2">
-                    <div className="px-4 py-2 text-white rounded-full md:py-1 bg-primary">
-                      <i className="fa-solid fa-check"></i>
+      <motion.div animate={animation}>
+        <div className="container flex flex-col px-4 mx-auto mt-10 mt-16 space-y-12 md:space-y-0 md:flex-row">
+          <div className="flex flex-col items-center pr-6 space-y-0 md:w-1/2">
+            <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl md:text-left">
+              <i className="fa-solid fa-terminal pr-4"></i> About Me
+            </h2>
+            <p className="max-w-sm text-left text-black py-6 md:text-left">
+              I'm a full stack web developer focused on building interactive and
+              responsive websites. My favourite part about development is that
+              there is no shortage of learning opportunities. I code daily and
+              learn something new each day.
+            </p>
+          </div>
+          {/* Numbered List */}
+          <div className="flex flex-col space-y-8 md:w-1/2" ref={ref}>
+            {skills.map((skill) => (
+              <div key={skill.description}>
+                <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                  <div className="rounded-l-full bg-tertiary md:bg-transparent">
+                    <div className="flex items-center space-x-2">
+                      <div className="px-4 py-2 text-white rounded-full md:py-1 bg-primary">
+                        <i className="fa-solid fa-check"></i>
+                      </div>
+                      <h3 className="text-base font-bold md:mb-4 text-white md:hidden">
+                        {skill.description}
+                      </h3>
                     </div>
-                    <h3 className="text-base font-bold md:mb-4 text-white md:hidden">
+                  </div>
+
+                  <div>
+                    <h3 className="hidden mb-4 text-lg font-bold md:block">
                       {skill.description}
                     </h3>
+                    <p className="text-black">{skill.paragraph}</p>
                   </div>
                 </div>
-
-                <div>
-                  <h3 className="hidden mb-4 text-lg font-bold md:block">
-                    {skill.description}
-                  </h3>
-                  <p className="text-black">{skill.paragraph}</p>
-                </div>
               </div>
-            </motion.div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
