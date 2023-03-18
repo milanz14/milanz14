@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript and React, specifically. Growing and learning daily. 
+I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript (TypeScript) and React, specifically. Growing and learning daily. 
 <br><br>
 This repository's content is hosted [here](https://www.milanz.dev/)
 
