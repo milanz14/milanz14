@@ -1,10 +1,10 @@
 # 💫 About Me:
-I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript. ❤️ React. Growing and learning daily. 
+I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript and React, specifically. Growing and learning daily. 
 <br><br>
 This repository's content is hosted [here](https://www.milanz.dev/)
 
 
-# 💻 Tech Stack:\
+# 💻 Tech Stack:
 ###
 
 <div align="left">
@@ -46,12 +46,12 @@ This repository's content is hosted [here](https://www.milanz.dev/)
 # 🏋🏻‍♀️ Working on:
 
   - SaveMyFave: save your favorite meals at your favorite restaurants for quick reference the next time you eat at that restaurant.
-  - mybusinessbooks: book keeping tool for SMB - MEVN stack (full stack)
-  - weighter: daily weight tracking and water consumption tracking - Vue3 w/Firebase back end.
+  - mybusinessbooks: book keeping tool for SMB
+  - Kanbanizer: A react based Kanban board (React/TypeScript)
 
 # 📚 Learning Queue:
 
-`Java` `Docker` `Kubernetes` `Svelte` `Koa` `Advanced Nodejs` `Tailwind CSS` 
+`Svelte` `Koa` `Advanced Nodejs`
 
 
 
