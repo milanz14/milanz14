@@ -15,13 +15,13 @@ This repository's content is hosted [here](https://www.milanz.dev/)
 
 # 🏋🏻‍♀️ Working on:
 
-  - SaveMyFave: save your favorite meals at your favorite restaurants for quick reference the next time you eat at that restaurant.
   - mybusinessbooks: book keeping tool for SMB
-  - Kanbanizer: A react based Kanban board (React/TypeScript)
+  - Organyze: A react based Kanban board (React/TypeScript)
+  - mindovermatter: A daily mood tracking journal to help with mindfulness.
 
 # 📚 Learning Queue:
 
-`Svelte` `Koa` `Advanced Nodejs`
+`Kotlin` `Svelte` `Koa` `Advanced Nodejs`
 
 
 
