@@ -24,7 +24,7 @@ This repository's content is hosted [here](https://www.milanz.dev/)
   - `Springboot` 
   - `Kotlin` 
   - `Svelte` 
-  - `Koa` `
+  - `Koa`
   - `Advanced Nodejs`
 
 
