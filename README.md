@@ -21,7 +21,11 @@ This repository's content is hosted [here](https://www.milanz.dev/)
 
 # 📚 Learning Queue:
 
-`Kotlin` `Svelte` `Koa` `Advanced Nodejs`
+  - `Springboot` 
+  - `Kotlin` 
+  - `Svelte` 
+  - `Koa` `
+  - `Advanced Nodejs`
 
 
 
