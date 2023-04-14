@@ -21,6 +21,7 @@ This repository's content is hosted [here](https://www.milanz.dev/)
 
 # 📚 Learning Queue:
 
+  - `Rust`
   - `Springboot` 
   - `Kotlin` 
   - `Svelte` 
