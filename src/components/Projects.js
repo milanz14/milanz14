@@ -14,6 +14,16 @@ import passgen from "../assets/passgen.png";
 const Projects = () => {
   const projectData = [
     {
+      name: "Savee",
+      subtitle: "Full Stack",
+      githubLink: "https://github.com/milanz14/savee",
+      liveSite: "https://savee.netlify.app/",
+      imgSrc: savee,
+      description:
+        "A budget tracking app built with React, TypeScript and Firebase. A user's transactions are tracked manually.",
+      tech: ["React", "TypeScript", "Firebase"],
+    },
+    {
       name: "Paintrest",
       subtitle: "Full Stack",
       githubLink: "https://github.com/milanz14/Paintrest",
@@ -24,14 +34,14 @@ const Projects = () => {
       tech: ["React", "Express", "Node", "JWT", "PostgresQL"],
     },
     {
-      name: "Quizzly",
+      name: "6Wordle",
       subtitle: "Front End",
-      githubLink: "https://github.com/milanz14/quizzly",
-      liveSite: "https://quizzly.surge.sh/" || "Currently Not Deployed",
-      imgSrc: quizzly,
+      githubLink: "https://github.com/milanz14/react-typescript-wordle",
+      liveSite: "https://6wordle.netlify.app/",
+      imgSrc: wordle,
       description:
-        "A quiz app built with Vue. Uses Vue3 with the Options API and renders content on the screen dynamically based on where in the list of questions the user is currently.",
-      tech: ["Vue"],
+        "A Wordle clone built with React and TypeScript for 6 letter words. This adds an extra degree of complexity than the base 5-letter Wordle game.",
+      tech: ["React", "TypeScript"],
     },
     {
       name: "React PassGen",
@@ -51,6 +61,27 @@ const Projects = () => {
       description:
         "Front end application which consumes the difficult to use PokeApi to query all of your favourite Pokemon for more information.",
       tech: ["React", "ChakraUI"],
+    },
+    {
+      name: "CryptoTraker",
+      subtitle: "Front End",
+      githubLink: "https://github.com/milanz14/CryptoTracker",
+      liveSite:
+        "https://cryptotracker-list.surge.sh/" || "Currently Not Deployed",
+      imgSrc: crypto,
+      description:
+        "Front end application which queries the CoinGecko API to display the latest in Crypto trends.",
+      tech: ["React"],
+    },
+    {
+      name: "Quizzly",
+      subtitle: "Front End",
+      githubLink: "https://github.com/milanz14/quizzly",
+      liveSite: "https://quizzly.surge.sh/" || "Currently Not Deployed",
+      imgSrc: quizzly,
+      description:
+        "A quiz app built with Vue. Uses Vue3 with the Options API and renders content on the screen dynamically based on where in the list of questions the user is currently.",
+      tech: ["Vue"],
     },
     {
       name: "ShortenIt",
@@ -74,17 +105,6 @@ const Projects = () => {
       tech: ["Python", "Flask", "Bootstrap", "JavaScript", "ChartJS"],
     },
     {
-      name: "CryptoTraker",
-      subtitle: "Front End",
-      githubLink: "https://github.com/milanz14/CryptoTracker",
-      liveSite:
-        "https://cryptotracker-list.surge.sh/" || "Currently Not Deployed",
-      imgSrc: crypto,
-      description:
-        "Front end application which queries the CoinGecko API to display the latest in Crypto trends.",
-      tech: ["React"],
-    },
-    {
       name: "Mortgage Calc",
       subtitle: "Front End",
       githubLink: "https://github.com/milanz14/simple-mortgage-calc",
@@ -94,26 +114,6 @@ const Projects = () => {
       description:
         "Front end application that calculates monthly payments for a loan/mortgage.",
       tech: ["React"],
-    },
-    {
-      name: "6Wordle",
-      subtitle: "Front End",
-      githubLink: "https://github.com/milanz14/react-typescript-wordle",
-      liveSite: "https://6wordle.netlify.app/",
-      imgSrc: wordle,
-      description:
-        "A Wordle clone built with React and TypeScript for 6 letter words. This adds an extra degree of complexity than the base 5-letter Wordle game.",
-      tech: ["React", "TypeScript"],
-    },
-    {
-      name: "Savee",
-      subtitle: "Full Stack",
-      githubLink: "https://github.com/milanz14/savee",
-      liveSite: "https://savee.netlify.app/",
-      imgSrc: savee,
-      description:
-        "A budget tracking app built with React, TypeScript and Firebase. A user's transactions are tracked manually.",
-      tech: ["React", "TypeScript", "Firebase"],
     },
     {
       name: "CharityFinder",
