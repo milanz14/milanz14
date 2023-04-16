@@ -135,8 +135,8 @@ const Projects = () => {
         </h2>
         {/* Projects Container */}
         {projectData.map((project) => (
-          <div className="mt-4 flex justify-center">
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-800 md:w-2/3">
+          <div className="mt-12 flex justify-center">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-800 md:w-3/4">
               <img
                 className="w-21 h-21 mt-1 rounded-lg"
                 src={project.imgSrc}
