@@ -25,7 +25,7 @@ const AboutCard = () => {
     {
       description: "Front End Skills and Technologies",
       paragraph:
-        "I am well versed with HTML, CSS, JavaScript, TypeScript, React, Vue, Bulma, Tailwind, Bootstrap, Vuetify, MaterialUI, Chakra andmany more. I believe in writing clean code while minimizing technical debt. I have used Surge and Netlify to deploy front end websites.",
+        "I am well versed with HTML, CSS, JavaScript, TypeScript, React, Vue, Bulma, Tailwind, Bootstrap, Vuetify, MaterialUI, Chakra and many more. I believe in writing clean code while minimizing technical debt. I have used Surge and Netlify to deploy front end websites.",
     },
     {
       description: "Backend Skills and Technologies",
@@ -49,9 +49,8 @@ const AboutCard = () => {
             </h2>
             <p className="max-w-sm text-left text-black py-6 md:text-left">
               I'm a full stack web developer focused on building interactive and
-              responsive websites. My favourite part about development is that
-              there is no shortage of learning opportunities. I code daily and
-              learn something new each day.
+              responsive websites. I strive to learn something new and improve
+              my skill set daily.
             </p>
           </div>
           {/* Numbered List */}
