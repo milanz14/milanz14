@@ -12,7 +12,7 @@ const Hero = () => {
   useEffect(() => {
     if (inView) {
       animation.start({
-        translateX: 0,
+        translateY: 0,
         opacity: 1,
         transition: {
           duration: 1.5,
@@ -20,7 +20,7 @@ const Hero = () => {
       });
     }
     if (!inView) {
-      animation.start({ translateX: -400, opacity: 0 });
+      animation.start({ translateY: -400, opacity: 0 });
     }
   }, [inView, animation]);
 
