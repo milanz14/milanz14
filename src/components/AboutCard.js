@@ -9,7 +9,7 @@ const AboutCard = () => {
   useEffect(() => {
     if (inView) {
       animation.start({
-        translateX: 0,
+        translateY: 0,
         opacity: 1,
         transition: {
           duration: 1.5,
@@ -17,7 +17,7 @@ const AboutCard = () => {
       });
     }
     if (!inView) {
-      animation.start({ translateX: 400, opacity: 0 });
+      animation.start({ translateY: 400, opacity: 0 });
     }
   }, [inView]);
 
@@ -25,7 +25,7 @@ const AboutCard = () => {
     {
       description: "Front End Skills and Technologies",
       paragraph:
-        "I am well versed with HTML, CSS, JavaScript, TypeScript, React, Vue, Bulma, Tailwind, Bootstrap, Vuetify, MaterialUI, Chakra andmany more. I believe in writing clean code while minimizing technical debt. I have used Surge and Netlify to deploy front end websites.",
+        "I am well versed with HTML, CSS, JavaScript, TypeScript, React, Vue, Bulma, Tailwind, Bootstrap, Vuetify, MaterialUI, Chakra and many more. I believe in writing clean code while minimizing technical debt. I have used Surge and Netlify to deploy front end websites.",
     },
     {
       description: "Backend Skills and Technologies",
@@ -47,11 +47,10 @@ const AboutCard = () => {
             <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl md:text-left">
               <i className="fa-solid fa-terminal pr-4"></i> About Me
             </h2>
-            <p className="max-w-sm text-left text-black py-6 md:text-left">
+            <p className="max-w-sm text-left text-black py-12 md:text-left">
               I'm a full stack web developer focused on building interactive and
-              responsive websites. My favourite part about development is that
-              there is no shortage of learning opportunities. I code daily and
-              learn something new each day.
+              responsive websites. I strive to learn something new and improve
+              my skill set daily.
             </p>
           </div>
           {/* Numbered List */}
