@@ -34,7 +34,7 @@ const Hero = () => {
               Web Developer
             </h1>
             <p className="max-w-sm pt-10 text-left bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 lg:text-left">
-              I write code and I love what I do.
+              I write code.
             </p>
             <div className="flex flex-col md:hidden transform transition duration-500 hover:scale-105">
               <img src={avatar} alt="developer memeoji" />
