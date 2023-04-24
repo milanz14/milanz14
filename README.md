@@ -15,9 +15,9 @@ This repository's content is hosted [here](https://www.milanz.dev/)
 
 # 🏋🏻‍♀️ Working on:
 
-  - `mybusinessbooks`: book keeping tool for SMB
   - `Organyze`: A react based Kanban board (React/TypeScript)
   - `mindovermatter`: A daily mood tracking journal to help with mindfulness.
+  - `weightly`: macro calculator and weight tracking. 
 
 # 📚 Learning Queue:
 
