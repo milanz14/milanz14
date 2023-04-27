@@ -24,7 +24,6 @@ This repository's content is hosted [here](https://www.milanz.dev/)
   - `Rust`
   - `Springboot` 
   - `Kotlin` 
-  - `Svelte` 
 
 
 
