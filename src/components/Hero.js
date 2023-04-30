@@ -1,13 +1,16 @@
-import HeroImg from "../assets/hero-img.png";
+import AboutMe from "../assets/aboutme.png";
 import avatar from "../assets/avatar.png";
 
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Hero = () => {
   const { ref, inView } = useInView();
   const animation = useAnimation();
+
+  const canvasRef = useRef();
+  const imageRef = useRef();
 
   useEffect(() => {
     if (inView) {
@@ -23,6 +26,15 @@ const Hero = () => {
       animation.start({ translateY: -400, opacity: 0 });
     }
   }, [inView, animation]);
+
+  // useEffect(() => {
+  //   const canvas = canvasRef.current;
+  //   const context = canvas.getContext("2d");
+  // }, []);
+
+  // const handleHover = () => {
+  //   console.log("hovered over");
+  // };
 
   return (
     <section id="hero" className="h-full">
@@ -48,9 +60,15 @@ const Hero = () => {
               </a>
             </div>
           </div>
-
-          <div className="hover:drop-shadow-lg md:w-1/2 transform transition duration-500 hover:scale-105">
-            <img src={HeroImg} alt="details code snippet" />
+          {/* <div className="hover:drop-shadow-lg md:w-1/2 transform transition duration-500 hover:scale-105"> */}
+          <div className="hover:drop-shadow-lg md:w-1/2 transform transition duration-500">
+            {/* <canvas
+              ref={canvasRef}
+              onDragOver={handleHover}
+              className="md:w-1/2 md:h-1/2"
+            > */}
+            <img src={AboutMe} alt="details code snippet" ref={imageRef} />
+            {/* </canvas> */}
           </div>
         </div>
       </motion.div>
