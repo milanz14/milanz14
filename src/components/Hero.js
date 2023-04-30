@@ -10,8 +10,7 @@ const Hero = () => {
   const animation = useAnimation();
 
   const canvasRef = useRef();
-  const imageRef = useRef(AboutMe);
-  const [ctx, setCtx] = useState();
+  const imageRef = useRef();
 
   useEffect(() => {
     if (inView) {
@@ -28,18 +27,14 @@ const Hero = () => {
     }
   }, [inView, animation]);
 
-  useEffect(() => {
-    const currentCanvasContext = canvasRef.current.getContext("2d");
-    setCtx(currentCanvasContext);
-    if (!ctx) {
-      return;
-    }
-    ctx.drawImage(imageRef.current, 0, 0);
-  }, []);
+  // useEffect(() => {
+  //   const canvas = canvasRef.current;
+  //   const context = canvas.getContext("2d");
+  // }, []);
 
-  const handleHover = () => {
-    console.log("hovered over");
-  };
+  // const handleHover = () => {
+  //   console.log("hovered over");
+  // };
 
   return (
     <section id="hero" className="h-full">
@@ -67,9 +62,13 @@ const Hero = () => {
           </div>
           {/* <div className="hover:drop-shadow-lg md:w-1/2 transform transition duration-500 hover:scale-105"> */}
           <div className="hover:drop-shadow-lg md:w-1/2 transform transition duration-500">
-            <canvas ref={canvasRef} onDragOver={handleHover}>
-              <img src={AboutMe} alt="details code snippet" ref={imageRef} />
-            </canvas>
+            {/* <canvas
+              ref={canvasRef}
+              onDragOver={handleHover}
+              className="md:w-1/2 md:h-1/2"
+            > */}
+            <img src={AboutMe} alt="details code snippet" ref={imageRef} />
+            {/* </canvas> */}
           </div>
         </div>
       </motion.div>
