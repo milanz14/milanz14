@@ -1,5 +1,9 @@
 # 💫 About Me:
-I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript (TypeScript) and React. Growing and learning daily. I prefer FE development in the React ecosystem but I am open to FE/BE/FS positions in any tech stack. 
+I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript (TypeScript) and React.  
+
+I prefer FE development in the React ecosystem but I am open to FE/BE/FS positions in any tech stack. 
+
+Tinkering and Learning Ad Infinitum.
 <br><br>
 This repository's content is hosted [here](https://www.milanz.dev/)
 
