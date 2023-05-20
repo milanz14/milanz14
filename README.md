@@ -19,6 +19,7 @@ This repository's content is hosted [here](https://www.milanz.dev/)
 
 # 🏋🏻‍♀️ Working on:
 
+  - `fake-store`: A mock e-commerce application (NextJS/TypeScript/Stripe)
   - `Organyze`: A react based Kanban board (React/TypeScript)
   - `mindovermatter`: A daily mood tracking journal to help with mindfulness.
   - `weightly`: macro calculator and weight tracking. 
