@@ -41,9 +41,10 @@ const Hero = () => {
       <motion.div animate={animation} ref={ref}>
         <div className="container h-full flex flex-col md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
           <div className="flex flex-col items-center mb-8 space-y-8 md:w-1/2">
-            <h1 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-5xl font-bold text-center md:text-5xl md:text-left">
+            <h1 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-5xl font-bold text-center md:text-5xl ">
               Milan Zagorac <br />
-              Software Developer
+              Software <br />
+              Developer
             </h1>
             <p className="max-w-sm pt-10 text-left bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 lg:text-left">
               I write code.
