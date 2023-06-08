@@ -48,7 +48,7 @@ const AboutCard = () => {
               <i className="fa-solid fa-terminal pr-4"></i> About Me
             </h2>
             <p className="max-w-sm text-left text-black py-12 md:text-left">
-              I'm a full stack web developer focused on building interactive and
+              I'm a full stack developer focused on building interactive and
               responsive websites. I strive to learn something new and improve
               my skill set daily.
             </p>
