@@ -3,13 +3,13 @@ import avatar from "../assets/avatar.png";
 
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 const Hero = () => {
   const { ref, inView } = useInView();
   const animation = useAnimation();
 
-  const canvasRef = useRef();
+  // const canvasRef = useRef();
   const imageRef = useRef();
 
   useEffect(() => {
