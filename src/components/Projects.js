@@ -6,7 +6,7 @@ import pokefind from "../assets/pokefind.png";
 import shortening from "../assets/shortening.png";
 import budgee from "../assets/budgee.png";
 import mortgage from "../assets/mortgage.png";
-import pledge from "../assets/pledge.png";
+import renamer from "../assets/file-rename.png";
 import wordle from "../assets/wordle.png";
 import savee from "../assets/savee-table.png";
 import passgen from "../assets/passgen.png";
@@ -50,6 +50,16 @@ const Projects = () => {
       liveSite: "https://react-pass-gen.surge.sh/",
       imgSrc: passgen,
       description: "A tool for generating secure passwords.",
+      tech: ["React", "TypeScript"],
+    },
+    {
+      name: "File Renaming",
+      subtitle: "Front End",
+      githubLink: "https://github.com/milanz14/file-renaming-site",
+      liveSite: "https://file-renaming-site.netlify.app/",
+      imgSrc: renamer,
+      description:
+        "Web based tool for quickly renaming extensions for batch files",
       tech: ["React", "TypeScript"],
     },
     {
