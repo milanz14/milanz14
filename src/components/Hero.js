@@ -18,7 +18,7 @@ const Hero = () => {
         translateY: 0,
         opacity: 1,
         transition: {
-          duration: 1.5,
+          duration: 1.75,
         },
       });
     }
@@ -26,15 +26,6 @@ const Hero = () => {
       animation.start({ translateY: -400, opacity: 0 });
     }
   }, [inView, animation]);
-
-  // useEffect(() => {
-  //   const canvas = canvasRef.current;
-  //   const context = canvas.getContext("2d");
-  // }, []);
-
-  // const handleHover = () => {
-  //   console.log("hovered over");
-  // };
 
   return (
     <section id="hero" className="h-full">
