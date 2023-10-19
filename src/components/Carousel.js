@@ -22,7 +22,7 @@ const Carousel = ({ cards }) => {
     setCurrentIndex(index);
   };
 
-  return <div>Carousel</div>;
+  return <div className="carousel">Carousel</div>;
 };
 
 export default Carousel;

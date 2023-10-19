@@ -11,6 +11,8 @@ import wordle from "../assets/wordle.png";
 import savee from "../assets/savee-table.png";
 import passgen from "../assets/passgen.png";
 
+import Carousel from "./Carousel";
+
 const Projects = () => {
   const projectData = [
     {
