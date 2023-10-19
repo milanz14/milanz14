@@ -14,7 +14,7 @@ import passgen from "../assets/passgen.png";
 import Carousel from "./Carousel";
 
 const Projects = () => {
-  const projectData = [
+  const projects = [
     {
       name: "Savee",
       subtitle: "Full Stack",
@@ -143,52 +143,13 @@ const Projects = () => {
     <section id="projects">
       <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
         <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl">
-          <i className="fa-solid fa-terminal pr-4"></i> Projects:
+          <i className="fa-solid fa-terminal pr-4"></i>
+          Personal Projects: ({projects.length})
         </h2>
         {/* Projects Container */}
-        {projectData.map((project) => (
-          <div className="mt-8 flex justify-center" key={project.name}>
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-800 md:w-3/4">
-              <img
-                className="w-21 h-21 mt-1 rounded-lg"
-                src={project.imgSrc}
-                alt="project screenshot"
-              />
-              <h5 className="text-white text-lg font-bold">
-                {project.subtitle} - {project.name}
-              </h5>
-              <p className="text-sm text-white">{project.description}</p>
-              <div className="flex flex-row items-center">
-                <a
-                  href={project.githubLink}
-                  target="_blank"
-                  className="text-white px-4"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href={project.liveSite}
-                  className="text-white px-4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa-solid fa-pager"></i>
-                </a>
-              </div>
-              <div>
-                {project.tech.map((data, idx) => (
-                  <span
-                    key={idx}
-                    className="inline-block bg-tertiary rounded-full px-3 py-2 my-2 text-sm text-white mr-2"
-                  >
-                    {data}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        ))}
+        <div className="carousel-container">
+          <Carousel projects={projects} />
+        </div>
         <div className="my-16">
           <a
             href="#contact"
