@@ -31,20 +31,20 @@ const Carousel = ({ projects }) => {
   };
 
   return (
-    <div className="">
+    <div className="overflow-hidden relative">
       <div className="flex justify-around mt-8">
-        <div
-          className="shadow-xl p-3 w-12 h-12 rounded-full border-2 hover:cursor-pointer flex justify-center items-center  hover:bg-indigo-500 hover:bg-pos-100 transition-all"
+        <button
+          className="text-3xl shadow-xl p-3 w-12 h-12 rounded-full border-2 hover:cursor-pointer flex justify-center items-center bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800"
           onClick={handlePrevious}
         >
           <i className="fa-solid fa-arrow-left" />
-        </div>
-        <div
-          className="shadow-xl p-3 w-12 h-12 rounded-full border-2 hover:cursor-pointer flex justify-center items-center hover:bg-indigo-500 hover:bg-pos-100 transition-all"
+        </button>
+        <button
+          className="text-3xl shadow-xl p-3 w-12 h-12 rounded-full border-2 hover:cursor-pointer flex justify-center items-center bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800"
           onClick={handleNext}
         >
           <i className="fa-solid fa-arrow-right" />
-        </div>
+        </button>
       </div>
       <div
         className="mt-8 h-full flex justify-center"
