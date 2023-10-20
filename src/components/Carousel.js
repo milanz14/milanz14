@@ -24,6 +24,18 @@ const Carousel = ({ projects }) => {
 
   return (
     <div className="carousel">
+      <div className="flex justify-around mt-8">
+        <div
+          className="leftArrow animate-bounce shadow-xl rounded-2xl w-1"
+          onClick={handlePrevious}
+          disabled={currentIndex === 0 ? true : false}
+        >
+          <i className="fa-solid fa-arrow-left bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl"></i>
+        </div>
+        <div className="rightArrow" onClick={handleNext}>
+          <i className="fa-solid fa-arrow-right max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl"></i>
+        </div>
+      </div>
       <div
         className="mt-8 flex justify-center"
         key={projects[currentIndex].name}
