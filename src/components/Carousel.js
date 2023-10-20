@@ -26,13 +26,13 @@ const Carousel = ({ projects }) => {
     <div className="carousel">
       <div className="flex justify-around mt-8">
         <div
-          className="leftArrow animate-bounce shadow-xl w-2 h-6"
+          className="animate-bounce shadow-xl w-6 h-6 rounded-2xl border-2"
           onClick={handlePrevious}
         >
           <i className="fa-solid fa-arrow-left" />
         </div>
         <div
-          className="rightArrow animate-bounce shadow-xl w-2 h-6"
+          className="animate-bounce shadow-xl w-6 h-6 rounded-2xl border-2"
           onClick={handleNext}
         >
           <i className="fa-solid fa-arrow-right" />
