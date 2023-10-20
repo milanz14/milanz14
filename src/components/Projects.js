@@ -147,7 +147,7 @@ const Projects = () => {
           Personal Projects: ({projects.length})
         </h2>
         {/* Projects Container */}
-        <div className="carousel-container">
+        <div className="w-full">
           <Carousel projects={projects} />
         </div>
         <div className="my-16">

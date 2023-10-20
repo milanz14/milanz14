@@ -47,7 +47,7 @@ const Carousel = ({ projects }) => {
         </div>
       </div>
       <div
-        className="mt-8 h-full w-full flex justify-center"
+        className="mt-8 h-full flex justify-center"
         key={projects[currentIndex].name}
       >
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-800 md:w-3/4">
