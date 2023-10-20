@@ -31,7 +31,7 @@ const Carousel = ({ projects }) => {
   };
 
   return (
-    <div className="carousel">
+    <div className="">
       <div className="flex justify-around mt-8">
         <div
           className="shadow-xl p-3 w-12 h-12 rounded-full border-2 hover:cursor-pointer flex justify-center items-center  hover:bg-indigo-500 hover:bg-pos-100 transition-all"
@@ -47,12 +47,12 @@ const Carousel = ({ projects }) => {
         </div>
       </div>
       <div
-        className="mt-8 h-full flex justify-center"
+        className="mt-8 h-full w-full flex justify-center"
         key={projects[currentIndex].name}
       >
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-800 md:w-3/4">
           <img
-            className="object-contain h-64 mt-1 rounded-lg"
+            className="object-contain mt-1 rounded-lg"
             src={projects[currentIndex].imgSrc}
             alt="project screenshot"
           />
