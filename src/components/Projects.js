@@ -153,7 +153,7 @@ const Projects = () => {
         <div className="my-16">
           <a
             href="#contact"
-            className="p-3 px-6 pt-2 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-800 rounded-full baseline hover:cursor-pointer transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100"
+            className="p-3 px-6 pt-2 text-white  rounded-full baseline hover:cursor-pointer transition-all duration-500 bg-gradient-to-l from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100"
           >
             Contact Me
           </a>

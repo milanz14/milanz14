@@ -46,14 +46,19 @@ const Carousel = ({ projects }) => {
           <i className="fa-solid fa-arrow-right" />
         </button>
       </div>
-      {projects.map((project) => (
+      <div
+        className={`overflow-hidden relative flex justify-center transition east-out duration-400 w-full`}
+        style={{
+          transform: `translate-x-[-${currentIndex * 100}%]`,
+        }}
+      >
         <div
           className="mt-8 h-full flex justify-center"
           key={projects[currentIndex].name}
         >
           <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-800 md:w-3/4">
             <img
-              className="object-contain mt-1 rounded-lg"
+              className="mt-1 rounded-lg"
               src={projects[currentIndex].imgSrc}
               alt="project screenshot"
             />
@@ -93,7 +98,7 @@ const Carousel = ({ projects }) => {
             </div>
           </div>
         </div>
-      ))}
+      </div>
     </div>
   );
 };
