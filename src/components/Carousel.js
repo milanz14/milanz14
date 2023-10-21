@@ -5,7 +5,6 @@ import React from "react";
 
 const Carousel = ({ projects }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const animation = useAnimation();
 
   const handleNext = () => {
     if (currentIndex === projects.length - 1) {
@@ -27,9 +26,9 @@ const Carousel = ({ projects }) => {
     }
   };
 
-  const handleDotClick = (index) => {
-    setCurrentIndex(index);
-  };
+  // const handleDotClick = (index) => {
+  //   setCurrentIndex(index);
+  // };
 
   return (
     <div>
