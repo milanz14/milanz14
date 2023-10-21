@@ -52,15 +52,8 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          {/* <div className="hover:drop-shadow-lg md:w-1/2 transform transition duration-500 hover:scale-105"> */}
           <div className="hover:drop-shadow-lg md:w-1/2 transform transition duration-500">
-            {/* <canvas
-              ref={canvasRef}
-              onDragOver={handleHover}
-              className="md:w-1/2 md:h-1/2"
-            > */}
             <img src={AboutMe} alt="details code snippet" ref={imageRef} />
-            {/* </canvas> */}
           </div>
         </div>
       </motion.div>

@@ -140,14 +140,14 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects">
+    <section id="projects" className="h-full">
       <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
         <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl">
           <i className="fa-solid fa-terminal pr-4"></i>
           Personal Projects: ({projects.length})
         </h2>
         {/* Projects Container */}
-        <div className="w-full">
+        <div className="w-full overflow-hidden relative transition ease-out duration-400">
           <Carousel projects={projects} />
         </div>
         <div className="my-16">
