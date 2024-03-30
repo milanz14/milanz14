@@ -2,7 +2,8 @@
 I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript (TypeScript) and React.  
 
 <br>
-i am currently working on a SaaS to be revealed soon. 
+I am currently working on a SaaS to be revealed soon. 
+<br>
 
 Tinkering and Learning Ad Infinitum.
 <br><br>
