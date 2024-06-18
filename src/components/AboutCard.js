@@ -1,26 +1,4 @@
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
-
 const AboutCard = () => {
-  const { ref, inView } = useInView();
-  const animation = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        translateY: 0,
-        opacity: 1,
-        transition: {
-          duration: 1.5,
-        },
-      });
-    }
-    if (!inView) {
-      animation.start({ translateY: 400, opacity: 0 });
-    }
-  }, [inView]);
-
   const skills = [
     {
       description: "Front End Skills and Technologies",
@@ -41,49 +19,49 @@ const AboutCard = () => {
 
   return (
     <section id="about">
-      <motion.div animate={animation} ref={ref}>
-        <div className="container flex flex-col px-4 mx-auto mt-10 mt-16 space-y-12 md:space-y-0 md:flex-row">
-          <div className="flex flex-col items-center pr-6 space-y-0 md:w-1/2">
-            <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl md:text-left">
-              <i className="fa-solid fa-terminal pr-4"></i> About Me
-            </h2>
-            <p className="max-w-xl text-justify text-black py-12">
-              I'm a full stack developer focused on building interactive and
-              responsive websites. My approach to technical challenges is rooted
-              in a commitment to excellence, always striving for high-quality
-              solutions that align with best practices and industry standards. I
-              stay updated with the latest trends and technologies, continuously
-              expanding my knowledge base to deliver innovative solutions.
-            </p>
-          </div>
+      {/* <motion.div animate={animation} ref={ref}> */}
+      <div className="container flex flex-col px-4 mx-auto mt-10 mt-16 space-y-12 md:space-y-0 md:flex-row">
+        <div className="flex flex-col items-center pr-6 space-y-0 md:w-1/2">
+          <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl md:text-left">
+            <i className="fa-solid fa-terminal pr-4"></i> About Me
+          </h2>
+          <p className="max-w-xl text-justify text-black py-12">
+            I'm a full stack developer focused on building interactive and
+            responsive websites. My approach to technical challenges is rooted
+            in a commitment to excellence, always striving for high-quality
+            solutions that align with best practices and industry standards. I
+            stay updated with the latest trends and technologies, continuously
+            expanding my knowledge base to deliver innovative solutions.
+          </p>
+        </div>
 
-          <div className="flex flex-col space-y-8 md:w-1/2">
-            {skills.map((skill) => (
-              <div key={skill.description}>
-                <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
-                  <div className="rounded-l-full bg-tertiary md:bg-transparent">
-                    <div className="flex items-center space-x-2">
-                      <div className="px-4 py-2 text-white rounded-full md:py-1 bg-primary">
-                        <i className="fa-solid fa-check"></i>
-                      </div>
-                      <h3 className="text-base text-justify font-bold md:mb-4 text-white md:hidden">
-                        {skill.description}
-                      </h3>
+        <div className="flex flex-col space-y-8 md:w-1/2">
+          {skills.map((skill) => (
+            <div key={skill.description}>
+              <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                <div className="rounded-l-full bg-tertiary md:bg-transparent">
+                  <div className="flex items-center space-x-2">
+                    <div className="px-4 py-2 text-white rounded-full md:py-1 bg-primary">
+                      <i className="fa-solid fa-check"></i>
                     </div>
-                  </div>
-
-                  <div>
-                    <h3 className="hidden mb-4 text-lg font-bold md:block">
+                    <h3 className="text-base text-justify font-bold md:mb-4 text-white md:hidden">
                       {skill.description}
                     </h3>
-                    <p className="text-black text-justify">{skill.paragraph}</p>
                   </div>
                 </div>
+
+                <div>
+                  <h3 className="hidden mb-4 text-lg font-bold md:block">
+                    {skill.description}
+                  </h3>
+                  <p className="text-black text-justify">{skill.paragraph}</p>
+                </div>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
-      </motion.div>
+      </div>
+      {/* </motion.div> */}
     </section>
   );
 };
