@@ -30,7 +30,7 @@ const Carousel = ({ projects }) => {
   // };
 
   return (
-    <div>
+    <>
       <div className="flex justify-around mt-8">
         <button
           className="text-3xl shadow-xl p-3 w-12 h-12 rounded-full border-2 hover:cursor-pointer flex justify-center items-center bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800"
@@ -93,7 +93,7 @@ const Carousel = ({ projects }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
