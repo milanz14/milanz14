@@ -25,10 +25,6 @@ const Carousel = ({ projects }) => {
     }
   };
 
-  // const handleDotClick = (index) => {
-  //   setCurrentIndex(index);
-  // };
-
   return (
     <>
       <div className="flex justify-around mt-8">
