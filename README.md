@@ -9,7 +9,7 @@ I am currently working on a SaaS to be revealed soon.
 Tinkering and Learning Ad Infinitum.
 <br><br>
 This repository's content is hosted [here](https://www.milanz.dev/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ce038813-956a-49d7-9539-8370ca7535dc/deploy-status)](https://app.netlify.com/sites/milanz14/deploys)
+
 
 # 💻 Tech Stack:
 ###
