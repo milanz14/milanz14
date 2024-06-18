@@ -1,26 +1,4 @@
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
-
 const AboutCard = () => {
-  // const { ref, inView } = useInView();
-  // const animation = useAnimation();
-
-  // useEffect(() => {
-  //   if (inView) {
-  //     animation.start({
-  //       translateY: 0,
-  //       opacity: 1,
-  //       transition: {
-  //         duration: 1.5,
-  //       },
-  //     });
-  //   }
-  //   if (!inView) {
-  //     animation.start({ translateY: 400, opacity: 0 });
-  //   }
-  // }, [inView]);
-
   const skills = [
     {
       description: "Front End Skills and Technologies",
