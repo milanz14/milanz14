@@ -2,7 +2,9 @@
 I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript (TypeScript) and React.  
 
 <br>
-I am currently working on a SaaS to be revealed soon. 
+Currently working on:
+<b>Organyze</b> and 
+<b>FileBox</b>
 <br>
 <br>
 
