@@ -3,8 +3,9 @@ I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript (Type
 
 <br>
 Currently working on:
-<b>Organyze</b> and 
-<b>FileBox</b>
+<b>Organyze</b>,
+<b>FileBox</b> and
+<b>Quotar</b>
 <br>
 <br>
 
