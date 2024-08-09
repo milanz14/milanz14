@@ -20,7 +20,7 @@ const AboutCard = () => {
   return (
     <section id="about">
       {/* <motion.div animate={animation} ref={ref}> */}
-      <div className="container flex flex-col px-4 mx-auto mt-10 mt-16 space-y-12 md:space-y-0 md:flex-row">
+      <div className="container flex flex-col px-4 mx-auto mt-16 space-y-12 md:space-y-0 md:flex-row">
         <div className="flex flex-col items-center pr-6 space-y-0 md:w-1/2">
           <h2 className="max-width-md bg-clip-text text-transparent transition-all duration-500 bg-gradient-to-t from-pink-700 via-tertiary to-violet-800 bg-size-200 bg-pos-0 hover:bg-pos-100 text-3xl font-bold text-center md:text-5xl md:text-left">
             <i className="fa-solid fa-terminal pr-4"></i> About Me
