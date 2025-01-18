@@ -3,11 +3,12 @@ I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript (Type
 
 <br>
 Currently working on:
-<b>Organyze</b>,
-<b>FileBox</b>,
-<b>Evites</b>
+<b>Organyze 📋</b>,
+<b>FileBox 🔓</b>,
+<b>Evites 📧</b>
+<b>Quotar ﹩</b>
 and
-<b>Quotar</b>
+<b>FunnelCRM 📈</b>
 <br>
 <br>
 
