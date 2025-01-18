@@ -5,8 +5,8 @@ I'm Milan, a software developer from the Toronto area. I ❤️ JavaScript (Type
 Currently working on:
 <b>Organyze 📋</b>,
 <b>FileBox 🔓</b>,
-<b>Evites 📧</b>
-<b>Quotar ﹩</b>
+<b>Evites 📧</b>,
+<b>Quotar ﹩</b>,
 and
 <b>FunnelCRM 📈</b>
 <br>
