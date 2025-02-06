@@ -124,16 +124,6 @@ const projects = [
       "Front end application that calculates monthly payments for a loan/mortgage.",
     tech: ["React"],
   },
-  // {
-  //   name: "CharityFinder",
-  //   subtitle: "Front End",
-  //   githubLink: "https://github.com/milanz14/CharityFinder",
-  //   liveSite: "" || "Currently Not Deployed",
-  //   imgSrc: pledge,
-  //   description:
-  //     "Front end application which assists in finding charitable organizations. Comsumes the Pledge API. Pet project and not currently deployed, screenshot is of the Pledge API.",
-  //   tech: ["React"],
-  // },
 ];
 
 const Projects = () => (
