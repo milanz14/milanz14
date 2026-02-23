@@ -1,13 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  About,
-  Contact,
-  Footer,
-  Hero,
-  Nav,
-  Projects,
-  Skills,
-} from "./components";
+
 import "./styles/global.css";
 
 export default function App() {
