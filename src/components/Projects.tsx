@@ -85,9 +85,9 @@ function Projects() {
                     alignItems: "flex-end",
                     gap: "0.5rem",
                   }}>
-                  <span className="project-badge">Active</span>
+                  {p.live && <span className="project-badge">Active</span>}
                   <div className="project-links">
-                    {p.github && (
+                    {p.github && p.live && (
                       <a
                         href={p.github}
                         target="_blank"
