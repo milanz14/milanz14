@@ -138,10 +138,7 @@ function Projects() {
             </motion.div>
           ))}
         </div>
-        <FadeIn
-          delay={0.25}
-          className=""
-          style={{ marginTop: "2rem", textAlign: "center" }}>
+        <FadeIn delay={0.25} className="">
           <div style={{ marginTop: "2rem", textAlign: "center" }}>
             <a
               href="https://github.com/milanz14"

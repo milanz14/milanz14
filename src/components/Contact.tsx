@@ -5,21 +5,32 @@ import Orb from "./Orb";
 
 import { useState } from "react";
 
+interface FormErrors {
+  email?: string;
+  phone?: string;
+  message?: string;
+  [key: string]: string | undefined;
+}
+
 function Contact() {
   const [fields, setFields] = useState<{
     email: string;
     phone: string;
     message: string;
   }>({ email: "", phone: "", message: "" });
-  const [errors, setErrors] = useState({});
-  const [status, setStatus] = useState("idle");
+  const [errors, setErrors] = useState<FormErrors>({
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
 
-  const validate = () => {
-    const e = {};
+  const validate = (): FormErrors => {
+    const e: FormErrors = {};
     if (!fields.email.trim()) e.email = "Email is required.";
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email))
       e.email = "Enter a valid email.";
-    if (fields.phone && !/^[\d\s\-\+\(\)]{7,20}$/.test(fields.phone))
+    if (fields.phone && !/^[\d\s\-+()]{7,20}$/.test(fields.phone))
       e.phone = "Enter a valid phone number.";
     if (!fields.message.trim()) e.message = "Message is required.";
     else if (fields.message.trim().length < 10)
@@ -27,7 +38,7 @@ function Contact() {
     return e;
   };
 
-  const handleChange = (k, v) => {
+  const handleChange = (k: string, v: string) => {
     setFields((f) => ({ ...f, [k]: v }));
     if (errors[k]) setErrors((e) => ({ ...e, [k]: undefined }));
   };
