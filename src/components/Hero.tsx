@@ -43,13 +43,6 @@ function Hero() {
       />
 
       <div style={{ position: "relative", maxWidth: "56rem" }}>
-        {/* <motion.p
-          className="hero-eyebrow"
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.15, duration: 0.35 }}>
-          Based in Toronto, Canada
-        </motion.p> */}
         <motion.h1
           className="hero-name syne"
           initial={{ opacity: 0, y: 22 }}
