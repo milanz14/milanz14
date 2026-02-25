@@ -5,7 +5,7 @@ import Orb from "./Orb";
 import SectionHeading from "./SectionHeading";
 import ScrollArrow from "./ScrollArrow";
 
-const Skills = () => {
+const Skill = () => {
   const SKILLS = [
     { name: "JavaScript", color: "#F7DF1E" },
     { name: "TypeScript", color: "#3178C6" },
@@ -76,4 +76,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Skill;
