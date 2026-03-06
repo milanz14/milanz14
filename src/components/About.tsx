@@ -45,7 +45,7 @@ function About() {
       ),
     },
     {
-      delay: 0.07,
+      delay: 0.1,
       text: (
         <>
           That cross-discipline background shapes how I approach software. I
@@ -61,7 +61,7 @@ function About() {
       ),
     },
     {
-      delay: 0.14,
+      delay: 0.15,
       text: (
         <>
           My stack centres on{" "}
@@ -131,7 +131,7 @@ function About() {
                 className="about-card"
                 initial={{ opacity: 0, y: 16 }}
                 animate={cardsInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ delay: i * 0.07, duration: 0.35 }}>
+                transition={{ delay: i * 0.1, duration: 0.5 }}>
                 <div className="about-card-icon">{c.icon}</div>
                 <div className="about-card-title syne">{c.title}</div>
                 <div className="about-card-desc">{c.desc}</div>

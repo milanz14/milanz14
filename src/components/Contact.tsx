@@ -85,13 +85,13 @@ function Contact() {
               Have a project in mind, want to collaborate, or just want to say
               hi? Drop me a message and I'll get back to you as soon as I can.
             </p>
-            <a
+            {/* <a
               href="https://github.com/milanz14"
               target="_blank"
               rel="noreferrer"
               className="contact-gh">
               GitHub ↗
-            </a>
+            </a> */}
           </FadeIn>
 
           {/* Right — form */}
