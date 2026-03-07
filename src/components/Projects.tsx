@@ -42,6 +42,13 @@ const PROJECTS = [
     github: "https://github.com/milanz14/6Wordle",
     live: "https://6wordle.surge.sh/",
   },
+  {
+    name: "Driven Sales Consulting",
+    emoji: "﹩",
+    description: "A landing page for my side gig sales consulting business.",
+    tags: ["React", "TypeScript", "Framer Motion"],
+    live: "https://drivensalesconsulting.com/",
+  },
 ];
 
 function Projects() {
